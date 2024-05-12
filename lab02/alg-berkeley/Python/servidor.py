@@ -22,7 +22,7 @@ while True:
     print("Simulando latencia de envío")
     for _ in range(5):
         print(".")
-        time.sleep(random.uniform(0, 1))  
+        time.sleep(random.uniform(0, 1))   
 
     socket.send(str(tiempoCs).encode('utf-8'))
     print("Tiempo enviado satisfactoriamente")
