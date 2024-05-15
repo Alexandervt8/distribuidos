@@ -40,6 +40,11 @@ class Server:
                 self.disconnect(client_socket)
                 break
 
+def send_active_users(self, client_socket):
+        active_users = "Active users:\n"
+        for username in self.clients.values():
+            active_users += username + "\n"
+        client_socket.send(pickle.dumps(active_users))
     def accept_connections(self):
         while True:
             client_socket, client_address = self.server_socket.accept()
