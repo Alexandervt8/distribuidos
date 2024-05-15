@@ -20,6 +20,15 @@ class Server:
             self.accept_connections()
         except Exception as e:
             print("Error starting server:", e)
+
+    def accept_connections(self):
+        while True:
+            client_socket, client_address = self.server_socket.accept()
+            print("New connection from:", client_address)
+            client_thread = threading.Thread(target=self.handle_client,
+                                             args=(client_socket, ))
+            client_thread.start()
+
     def handle_client(self, client_socket):
         username = pickle.loads(client_socket.recv(1024))
         print(username, "joined the chat room.")
@@ -40,25 +49,37 @@ class Server:
                 self.disconnect(client_socket)
                 break
 
-def send_active_users(self, client_socket):
+    def broadcast(self, message):
+        for client_socket in self.clients:
+            try:
+                client_socket.send(pickle.dumps(message))
+            except Exception as e:
+                print("Error broadcasting message:", e)
+                self.disconnect(client_socket)
+
+    def send_active_users(self, client_socket):
         active_users = "Active users:\n"
         for username in self.clients.values():
             active_users += username + "\n"
         client_socket.send(pickle.dumps(active_users))
-    def accept_connections(self):
-        while True:
-            client_socket, client_address = self.server_socket.accept()
-            print("New connection from:", client_address)
-            client_thread = threading.Thread(target=self.handle_client,
-                                             args=(client_socket, ))
-            client_thread.start()
+
     def disconnect(self, client_socket):
         username = self.clients[client_socket]
         del self.clients[client_socket]
         self.broadcast(username + " has left the chat room.")
         client_socket.close()
 
+
 class ChatMessage:
     WHOISIN = 0
     MESSAGE = 1
     LOGOUT = 2
+
+
+def main():
+    port = 1500
+    server = Server(port)
+
+
+if __name__ == "__main__":
+    main()
