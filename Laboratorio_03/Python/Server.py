@@ -20,6 +20,25 @@ class Server:
             self.accept_connections()
         except Exception as e:
             print("Error starting server:", e)
+    def handle_client(self, client_socket):
+        username = pickle.loads(client_socket.recv(1024))
+        print(username, "joined the chat room.")
+        self.clients[client_socket] = username
+        self.broadcast(username + " has joined the chat room.")
+        while True:
+            try:
+                message = pickle.loads(client_socket.recv(1024))
+                if message.type == ChatMessage.LOGOUT:
+                    self.disconnect(client_socket)
+                    break
+                elif message.type == ChatMessage.WHOISIN:
+                    self.send_active_users(client_socket)
+                else:
+                    self.broadcast(username + ": " + message.message)
+            except Exception as e:
+                print("Error handling client:", e)
+                self.disconnect(client_socket)
+                break
 
     def accept_connections(self):
         while True:
@@ -33,3 +52,8 @@ class Server:
         del self.clients[client_socket]
         self.broadcast(username + " has left the chat room.")
         client_socket.close()
+
+class ChatMessage:
+    WHOISIN = 0
+    MESSAGE = 1
+    LOGOUT = 2
