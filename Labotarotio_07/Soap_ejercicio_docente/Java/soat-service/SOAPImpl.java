@@ -1,16 +1,23 @@
-package LabSD;
+
+package es.rosamarfil.soap;
 
 import java.util.List;
+
 import javax.jws.WebService;
-import LabSD.Product;
+
+import es.rosamarfil.model.User;
+
 @WebService(endpointInterface = "es.rosamarfil.soap.SOAPI")
-public class SOAPImpl {
+public class SOAPImpl implements SOAPI {
+
 	@Override
-	 public List<Product> getProducts() {
-		 return Product.getProducts();
-	 }
-	 @Override
-	 public void addProduct(Product product) {
-		 Product.getProducts().add(product);
-	 }
+	public List<User> getUsers() {
+		return User.getUsers();
+	}
+
+	@Override
+	public void addUser(User user) {
+		User.getUsers().add(user);
+	}
+
 }
