@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+   version="6.0">
+    <servlet>
+        <servlet-name>SOAPServlet</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <init-param>
+            <param-name>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</param-name>
+            <param-value>serv.SOAPlmpl</param-value> <!-- Clase que implementa tu servicio web -->
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SOAPServlet</servlet-name>
+        <url-pattern>/WS/*</url-pattern> <!-- URL que deseas para acceder a tu servicio web -->
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
+
