@@ -1,1 +1,7 @@
 
+Estos scripts de volcado de MySQL realiza las siguientes operaciones:
+
+Crea una tablas con las columnas respectivas
+Inserta múltiples registros en las tablas con datos de ejemplo.
+Establece la estructura y los datos iniciales de la tabla en la base de datos
+Después de ejecutar este script, las tablas estarán correctamente creadas y pobladas con datos en la base de datos.
