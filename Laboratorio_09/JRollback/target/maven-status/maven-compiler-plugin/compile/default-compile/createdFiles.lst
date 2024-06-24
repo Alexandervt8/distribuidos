@@ -1,0 +1,3 @@
+com\mycompany\jrollback\Database.class
+com\mycompany\jrollback\JRollback.class
+com\mycompany\jrollback\JNoRollback.class
