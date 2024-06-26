@@ -4,12 +4,15 @@ package com.mycompany.transaccionesbanco;
 import java.sql.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class interfaz extends javax.swing.JFrame {
 
     public interfaz() {
         initComponents();
         actualizarTabla();
+        agregarMouseListenerTabla();
     }
 
     @SuppressWarnings("unchecked")
@@ -159,7 +162,7 @@ public class interfaz extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        seleccionarUsuario();
+        actualizarTabla();
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void nuevoUsuario() {
@@ -227,6 +230,14 @@ public class interfaz extends javax.swing.JFrame {
             jTextField1.setText(jTable1.getValueAt(selectedRow, 1).toString());
             jTextField2.setText(jTable1.getValueAt(selectedRow, 2).toString());
         }
+    }
+    
+    private void agregarMouseListenerTabla() {
+        jTable1.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent evt) {
+                seleccionarUsuario();
+            }
+        });
     }
 
     private void actualizarTabla() {
