@@ -1,0 +1,6 @@
+Executable = E:\condor\test.bat
+Log        = E:\condor\log\test.log
+Output     = E:\condor\log\test.out
+Error      = E:\condor\log\test.err
+Queue
+

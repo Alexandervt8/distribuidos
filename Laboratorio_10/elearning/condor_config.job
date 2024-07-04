@@ -1,0 +1,16 @@
+# Nombre del job
+executable = run_job.bat
+output = run_job.out
+error = run_job.err
+log = run_job.log
+
+# Especifica los requerimientos de recursos
+request_cpus = 2
+request_memory = 4GB
+request_disk = 10GB
+
+# Archivos de entrada
+transfer_input_files = student_data.csv, course_materials.zip, ProcessStudentData.class, GenerateReports.class
+
+# Configura la cola del job
+queue

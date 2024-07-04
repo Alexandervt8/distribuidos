@@ -1,0 +1,8 @@
+executable = C:\Program Files\Java\jdk-17\bin\java.exe
+arguments = GenerateReports processed_data.csv course_summary.csv
+output = E:\condor\log\generate_reports.out
+error = E:\condor\log\generate_reports.err
+log = E:\condor\log\generate_reports.log
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+queue

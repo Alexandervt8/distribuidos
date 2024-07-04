@@ -1,0 +1,27 @@
+######################################################################
+##
+##  condor_config
+##
+######################################################################
+
+RELEASE_DIR = E:\condor
+LOCAL_DIR = $(RELEASE_DIR)
+
+LOCAL_CONFIG_FILE = $(LOCAL_DIR)\condor_config.local
+
+# Si no tienes configurado un collector separado, usa tu propia máquina como collector
+CONDOR_HOST = $(IP_ADDRESS)
+
+DAEMON_LIST = MASTER, SCHEDD, STARTD
+
+# Permitir escritura y lectura desde cualquier máquina
+ALLOW_WRITE = *
+ALLOW_READ = *
+
+# Seguridad básica para comunicación
+use SECURITY:recommended_v9_0
+
+# Dirección IP de la máquina (puedes usar localhost o la IP de tu máquina)
+IP_ADDRESS = localhost
+
+
