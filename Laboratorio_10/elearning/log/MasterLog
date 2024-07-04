@@ -1,0 +1,483 @@
+07/03/24 23:08:54 ******************************************************
+07/03/24 23:08:54 ** condor (CONDOR_MASTER) STARTING UP
+07/03/24 23:08:54 ** E:\condor\bin\condor_master.exe
+07/03/24 23:08:54 ** SubsystemInfo: name=MASTER type=MASTER(1) class=DAEMON(1)
+07/03/24 23:08:54 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+07/03/24 23:08:54 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/03/24 23:08:54 ** $CondorPlatform: x86_64_Windows10 $
+07/03/24 23:08:54 ** PID = 6288
+07/03/24 23:08:54 ** Log last touched time unavailable (No such file or directory)
+07/03/24 23:08:54 ******************************************************
+07/03/24 23:08:54 Using config source: E:\condor\condor_config
+07/03/24 23:08:54 Using local config sources: 
+07/03/24 23:08:54    E:\condor\condor_config.local
+07/03/24 23:08:54 config Macros = 44, Sorted = 44, StringBytes = 933, TablesBytes = 1632
+07/03/24 23:08:54 CLASSAD_CACHING is OFF
+07/03/24 23:08:54 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/03/24 23:08:54 SharedPortEndpoint: failed to open E:\condor\log/shared_port_ad: No such file or directory
+07/03/24 23:08:54 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+07/03/24 23:08:54 DaemonCore: private command socket at <192.168.0.7:0?alias=LAPTOP-PBUUEJR0&sock=master_6288_5fba>
+07/03/24 23:08:54 Warning: Collector information was not found in the configuration file. ClassAds will not be sent to the collector and this daemon will not join a larger Condor pool.
+07/03/24 23:08:54 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+07/03/24 23:08:54 Master restart (GRACEFUL) is watching E:\condor\bin\condor_master.exe (mtime:1696012644)
+07/03/24 23:08:54 Adding/Checking Windows firewall exceptions for all daemons
+07/03/24 23:08:55 Authorized application E:\condor\bin\condor_master.exe is now enabled in the firewall.
+07/03/24 23:08:56 Authorized application E:\condor\bin\condor_starter.exe is now enabled in the firewall.
+07/03/24 23:08:57 WinFirewall Error: Could not find trusted app image E:\condor\bin\condor_vm-gahp.exe
+07/03/24 23:09:01 Authorized application E:\condor\bin\condor_dagman.exe is now enabled in the firewall.
+07/03/24 23:09:01 Starting shared port with port: 9618
+07/03/24 23:09:04 Started DaemonCore process "E:\condor\bin\condor_shared_port.exe", pid and pgroup = 24104
+07/03/24 23:09:04 Waiting for E:\condor\log/shared_port_ad to appear.
+07/03/24 23:09:06 Found E:\condor\log/shared_port_ad.
+07/03/24 23:09:06 Daemons::StartAllDaemons all daemons were started
+07/03/24 23:22:58 Got SIGQUIT.  Performing fast shutdown.
+07/03/24 23:22:58 Sent SIGTERM to SHARED_PORT (pid 24104)
+07/03/24 23:22:58 The SHARED_PORT (pid 24104) exited with status 0
+07/03/24 23:22:58 About to tell the ProcD to exit
+07/03/24 23:22:58 procd (pid = 2272) exited with status 0
+07/03/24 23:22:58 All daemons are gone.  Exiting.
+07/03/24 23:22:58 **** condor (condor_MASTER) pid 6288 EXITING WITH STATUS 0
+07/03/24 23:23:07 ******************************************************
+07/03/24 23:23:07 ** condor (CONDOR_MASTER) STARTING UP
+07/03/24 23:23:07 ** E:\condor\bin\condor_master.exe
+07/03/24 23:23:07 ** SubsystemInfo: name=MASTER type=MASTER(1) class=DAEMON(1)
+07/03/24 23:23:07 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+07/03/24 23:23:07 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/03/24 23:23:07 ** $CondorPlatform: x86_64_Windows10 $
+07/03/24 23:23:07 ** PID = 3412
+07/03/24 23:23:07 ** Log last touched 7/3 23:22:58
+07/03/24 23:23:07 ******************************************************
+07/03/24 23:23:07 Using config source: E:\condor\condor_config
+07/03/24 23:23:07 Using local config sources: 
+07/03/24 23:23:07    E:\condor\condor_config.local
+07/03/24 23:23:07 config Macros = 47, Sorted = 47, StringBytes = 998, TablesBytes = 1740
+07/03/24 23:23:07 CLASSAD_CACHING is OFF
+07/03/24 23:23:07 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/03/24 23:23:07 SharedPortEndpoint: failed to open E:\condor\log/shared_port_ad: No such file or directory
+07/03/24 23:23:07 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+07/03/24 23:23:07 DaemonCore: private command socket at <192.168.0.7:0?alias=LAPTOP-PBUUEJR0&sock=master_3412_2e3a>
+07/03/24 23:23:07 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+07/03/24 23:23:07 Master restart (GRACEFUL) is watching E:\condor\bin\condor_master.exe (mtime:1696012644)
+07/03/24 23:23:07 Adding/Checking Windows firewall exceptions for all daemons
+07/03/24 23:23:07 Authorized application E:\condor\bin\condor_schedd.exe is now enabled in the firewall.
+07/03/24 23:23:08 Authorized application E:\condor\bin\condor_shadow.exe is now enabled in the firewall.
+07/03/24 23:23:08 Authorized application E:\condor\bin\condor_gridmanager.exe is now enabled in the firewall.
+07/03/24 23:23:09 Authorized application E:\condor\bin\condor_c-gahp.exe is now enabled in the firewall.
+07/03/24 23:23:09 Authorized application E:\condor\bin\condor_c-gahp_worker_thread.exe is now enabled in the firewall.
+07/03/24 23:23:09 Authorized application E:\condor\bin\condor_startd.exe is now enabled in the firewall.
+07/03/24 23:23:10 Authorized application E:\condor\bin\condor_kbdd.exe is now enabled in the firewall.
+07/03/24 23:23:10 WinFirewall Error: Could not find trusted app image E:\condor\bin\condor_vm-gahp.exe
+07/03/24 23:23:11 Starting shared port with port: 9618
+07/03/24 23:23:11 Started DaemonCore process "E:\condor\bin\condor_shared_port.exe", pid and pgroup = 6072
+07/03/24 23:23:11 Waiting for E:\condor\log/shared_port_ad to appear.
+07/03/24 23:23:12 Found E:\condor\log/shared_port_ad.
+07/03/24 23:23:12 Started DaemonCore process "E:\condor\bin\condor_schedd.exe", pid and pgroup = 26248
+07/03/24 23:23:13 Started DaemonCore process "E:\condor\bin\condor_startd.exe", pid and pgroup = 11348
+07/03/24 23:23:13 Daemons::StartAllDaemons all daemons were started
+07/03/24 23:23:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:23:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:23:16 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:23:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:23:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:23:19 Setting ready state 'Ready' for STARTD
+07/03/24 23:28:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:28:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:28:16 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:28:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:28:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:33:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:33:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:33:16 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:33:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:33:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:38:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:38:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:38:16 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:38:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:38:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:43:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:43:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:43:16 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:43:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:43:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:48:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:48:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:48:16 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:48:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:48:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:53:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:53:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:53:16 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:53:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:53:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:58:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:58:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:58:16 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:58:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:58:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:03:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:03:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:03:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:03:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:03:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:08:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:08:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:08:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:08:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:08:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:13:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:13:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:13:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:13:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:13:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:18:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:18:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:18:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:18:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:18:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:23:11 Preen pid is 24072
+07/04/24 00:23:11 Preen (pid 24072) exited with status 0
+07/04/24 00:23:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:23:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:23:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:23:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:23:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:28:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:28:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:28:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:28:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:28:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:33:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:33:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:33:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:33:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:33:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:38:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:38:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:38:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:38:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:38:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:43:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:43:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:43:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:43:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:43:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:48:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:48:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:48:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:48:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:48:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:53:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:53:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:53:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:53:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:53:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:58:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:58:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:58:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:58:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:58:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:03:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:03:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:03:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:03:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:03:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:08:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:08:16 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:08:16 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:08:16 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:08:16 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:13:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:13:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:13:17 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:13:17 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:13:17 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:18:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:18:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:18:17 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:18:17 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:18:17 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:23:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:23:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:23:17 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:23:17 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:23:17 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:28:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:28:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:28:17 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:28:17 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:28:17 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:33:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:33:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:33:17 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:33:17 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:33:17 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:38:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:38:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:38:17 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:38:17 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:38:17 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:40:45 Handling admin command RESTART.
+07/04/24 01:40:45 Sent SIGTERM to STARTD (pid 11348)
+07/04/24 01:40:45 The STARTD (pid 11348) exited with status 0
+07/04/24 01:40:45 All STARTDs are gone.  Stopping other daemons Gracefully
+07/04/24 01:40:45 Sent SIGTERM to SCHEDD (pid 26248)
+07/04/24 01:40:45 The SCHEDD (pid 26248) exited with status 0
+07/04/24 01:40:45 Sent SIGTERM to SHARED_PORT (pid 6072)
+07/04/24 01:40:45 The SHARED_PORT (pid 6072) exited with status 0
+07/04/24 01:40:45 About to tell the ProcD to exit
+07/04/24 01:40:45 procd (pid = 32836) exited with status 0
+07/04/24 01:40:45 All daemons are gone.  Restarting.
+07/04/24 01:40:45 Restarting master right away.
+07/04/24 01:40:45 Running as NT Service = 1
+07/04/24 01:40:45 Doing exec( "C:\WINDOWS\system32\cmd.exe /Q /C net stop condor & net start condor" )
+07/04/24 01:40:45 ******************************************************
+07/04/24 01:40:45 ** condor (CONDOR_MASTER) STARTING UP
+07/04/24 01:40:45 ** E:\condor\bin\condor_master.exe
+07/04/24 01:40:45 ** SubsystemInfo: name=MASTER type=MASTER(1) class=DAEMON(1)
+07/04/24 01:40:45 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+07/04/24 01:40:45 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:40:45 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:40:45 ** PID = 24332
+07/04/24 01:40:45 ** Log last touched 7/4 01:40:45
+07/04/24 01:40:45 ******************************************************
+07/04/24 01:40:45 Using config source: E:\condor\condor_config
+07/04/24 01:40:45 Using local config sources: 
+07/04/24 01:40:45    E:\condor\condor_config.local
+07/04/24 01:40:45 config Macros = 47, Sorted = 47, StringBytes = 999, TablesBytes = 1740
+07/04/24 01:40:45 CLASSAD_CACHING is OFF
+07/04/24 01:40:45 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:40:45 SharedPortEndpoint: failed to open E:\condor\log/shared_port_ad: No such file or directory
+07/04/24 01:40:45 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+07/04/24 01:40:45 DaemonCore: private command socket at <192.168.0.7:0?alias=LAPTOP-PBUUEJR0&sock=master_24332_f6c8>
+07/04/24 01:40:45 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+07/04/24 01:40:45 Master restart (GRACEFUL) is watching E:\condor\bin\condor_master.exe (mtime:1696012644)
+07/04/24 01:40:45 Adding/Checking Windows firewall exceptions for all daemons
+07/04/24 01:40:46 WinFirewall Error: Could not find trusted app image E:\condor\bin\condor_vm-gahp.exe
+07/04/24 01:40:46 Starting shared port with port: 9618
+07/04/24 01:40:46 Started DaemonCore process "E:\condor\bin\condor_shared_port.exe", pid and pgroup = 33624
+07/04/24 01:40:46 Waiting for E:\condor\log/shared_port_ad to appear.
+07/04/24 01:40:47 Found E:\condor\log/shared_port_ad.
+07/04/24 01:40:47 Started DaemonCore process "E:\condor\bin\condor_schedd.exe", pid and pgroup = 24512
+07/04/24 01:40:47 Started DaemonCore process "E:\condor\bin\condor_startd.exe", pid and pgroup = 34088
+07/04/24 01:40:47 Daemons::StartAllDaemons all daemons were started
+07/04/24 01:40:49 Setting ready state 'Ready' for STARTD
+07/04/24 01:40:51 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:40:51 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:40:51 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:40:51 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:40:51 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:41:02 Handling admin command RESTART.
+07/04/24 01:41:02 Sent SIGTERM to STARTD (pid 34088)
+07/04/24 01:41:22 The STARTD (pid 34088) exited with status 0
+07/04/24 01:41:22 All STARTDs are gone.  Stopping other daemons Gracefully
+07/04/24 01:41:22 Sent SIGTERM to SCHEDD (pid 24512)
+07/04/24 01:41:22 The SCHEDD (pid 24512) exited with status 0
+07/04/24 01:41:22 Sent SIGTERM to SHARED_PORT (pid 33624)
+07/04/24 01:41:22 The SHARED_PORT (pid 33624) exited with status 0
+07/04/24 01:41:22 About to tell the ProcD to exit
+07/04/24 01:41:23 procd (pid = 22492) exited with status 0
+07/04/24 01:41:23 All daemons are gone.  Restarting.
+07/04/24 01:41:23 Restarting master right away.
+07/04/24 01:41:23 Running as NT Service = 1
+07/04/24 01:41:23 Doing exec( "C:\WINDOWS\system32\cmd.exe /Q /C net stop condor & net start condor" )
+07/04/24 01:41:23 ******************************************************
+07/04/24 01:41:23 ** condor (CONDOR_MASTER) STARTING UP
+07/04/24 01:41:23 ** E:\condor\bin\condor_master.exe
+07/04/24 01:41:23 ** SubsystemInfo: name=MASTER type=MASTER(1) class=DAEMON(1)
+07/04/24 01:41:23 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+07/04/24 01:41:23 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:41:23 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:41:23 ** PID = 33432
+07/04/24 01:41:23 ** Log last touched 7/4 01:41:23
+07/04/24 01:41:23 ******************************************************
+07/04/24 01:41:23 Using config source: E:\condor\condor_config
+07/04/24 01:41:23 Using local config sources: 
+07/04/24 01:41:23    E:\condor\condor_config.local
+07/04/24 01:41:23 config Macros = 47, Sorted = 47, StringBytes = 999, TablesBytes = 1740
+07/04/24 01:41:23 CLASSAD_CACHING is OFF
+07/04/24 01:41:23 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:41:23 SharedPortEndpoint: failed to open E:\condor\log/shared_port_ad: No such file or directory
+07/04/24 01:41:23 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+07/04/24 01:41:23 DaemonCore: private command socket at <192.168.0.7:0?alias=LAPTOP-PBUUEJR0&sock=master_33432_4c8e>
+07/04/24 01:41:23 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+07/04/24 01:41:23 Master restart (GRACEFUL) is watching E:\condor\bin\condor_master.exe (mtime:1696012644)
+07/04/24 01:41:23 Adding/Checking Windows firewall exceptions for all daemons
+07/04/24 01:41:23 WinFirewall Error: Could not find trusted app image E:\condor\bin\condor_vm-gahp.exe
+07/04/24 01:41:23 Starting shared port with port: 9618
+07/04/24 01:41:24 Started DaemonCore process "E:\condor\bin\condor_shared_port.exe", pid and pgroup = 29448
+07/04/24 01:41:24 Waiting for E:\condor\log/shared_port_ad to appear.
+07/04/24 01:41:25 Found E:\condor\log/shared_port_ad.
+07/04/24 01:41:25 Started DaemonCore process "E:\condor\bin\condor_schedd.exe", pid and pgroup = 26932
+07/04/24 01:41:25 Started DaemonCore process "E:\condor\bin\condor_startd.exe", pid and pgroup = 29352
+07/04/24 01:41:25 Daemons::StartAllDaemons all daemons were started
+07/04/24 01:41:27 Setting ready state 'Ready' for STARTD
+07/04/24 01:41:29 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:41:29 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:29 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:29 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:29 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:44:17 Got SIGQUIT.  Performing fast shutdown.
+07/04/24 01:44:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:44:17 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:44:17 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:44:17 Failed to send update to collector localhost.
+07/04/24 01:44:17 Sent SIGQUIT to SCHEDD (pid 26932)
+07/04/24 01:44:17 Sent SIGQUIT to STARTD (pid 29352)
+07/04/24 01:44:17 The STARTD (pid 29352) exited with status 0
+07/04/24 01:44:17 The SCHEDD (pid 26932) exited with status 0
+07/04/24 01:44:17 Sent SIGTERM to SHARED_PORT (pid 29448)
+07/04/24 01:44:17 The SHARED_PORT (pid 29448) exited with status 0
+07/04/24 01:44:17 About to tell the ProcD to exit
+07/04/24 01:44:17 procd (pid = 11056) exited with status 0
+07/04/24 01:44:17 All daemons are gone.  Exiting.
+07/04/24 01:44:17 **** condor (condor_MASTER) pid 33432 EXITING WITH STATUS 0
+07/04/24 01:44:37 ******************************************************
+07/04/24 01:44:37 ** condor (CONDOR_MASTER) STARTING UP
+07/04/24 01:44:37 ** E:\condor\bin\condor_master.exe
+07/04/24 01:44:37 ** SubsystemInfo: name=MASTER type=MASTER(1) class=DAEMON(1)
+07/04/24 01:44:37 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+07/04/24 01:44:37 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:44:37 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:44:37 ** PID = 27264
+07/04/24 01:44:37 ** Log last touched 7/4 01:44:17
+07/04/24 01:44:37 ******************************************************
+07/04/24 01:44:37 Using config source: E:\condor\condor_config
+07/04/24 01:44:37 Using local config sources: 
+07/04/24 01:44:37    E:\condor\condor_config.local
+07/04/24 01:44:37 config Macros = 47, Sorted = 47, StringBytes = 999, TablesBytes = 1740
+07/04/24 01:44:37 CLASSAD_CACHING is OFF
+07/04/24 01:44:37 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:44:37 SharedPortEndpoint: failed to open E:\condor\log/shared_port_ad: No such file or directory
+07/04/24 01:44:37 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+07/04/24 01:44:37 DaemonCore: private command socket at <192.168.0.7:0?alias=LAPTOP-PBUUEJR0&sock=master_27264_5d96>
+07/04/24 01:44:37 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+07/04/24 01:44:37 Master restart (GRACEFUL) is watching E:\condor\bin\condor_master.exe (mtime:1696012644)
+07/04/24 01:44:37 Adding/Checking Windows firewall exceptions for all daemons
+07/04/24 01:44:38 WinFirewall Error: Could not find trusted app image E:\condor\bin\condor_vm-gahp.exe
+07/04/24 01:44:38 Starting shared port with port: 9618
+07/04/24 01:44:39 Started DaemonCore process "E:\condor\bin\condor_shared_port.exe", pid and pgroup = 20708
+07/04/24 01:44:39 Waiting for E:\condor\log/shared_port_ad to appear.
+07/04/24 01:44:39 Found E:\condor\log/shared_port_ad.
+07/04/24 01:44:39 Started DaemonCore process "E:\condor\bin\condor_schedd.exe", pid and pgroup = 23228
+07/04/24 01:44:39 Started DaemonCore process "E:\condor\bin\condor_startd.exe", pid and pgroup = 28036
+07/04/24 01:44:39 Daemons::StartAllDaemons all daemons were started
+07/04/24 01:44:41 Setting ready state 'Ready' for STARTD
+07/04/24 01:44:44 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:44:44 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:44:44 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:44:44 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:44:44 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:46:08 Got SIGQUIT.  Performing fast shutdown.
+07/04/24 01:46:08 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:46:08 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:46:08 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:46:08 Failed to send update to collector localhost.
+07/04/24 01:46:08 Sent SIGQUIT to SCHEDD (pid 23228)
+07/04/24 01:46:08 Sent SIGQUIT to STARTD (pid 28036)
+07/04/24 01:46:08 The SCHEDD (pid 23228) exited with status 0
+07/04/24 01:46:08 The STARTD (pid 28036) exited with status 0
+07/04/24 01:46:08 Sent SIGTERM to SHARED_PORT (pid 20708)
+07/04/24 01:46:08 The SHARED_PORT (pid 20708) exited with status 0
+07/04/24 01:46:08 About to tell the ProcD to exit
+07/04/24 01:46:08 procd (pid = 30788) exited with status 0
+07/04/24 01:46:08 All daemons are gone.  Exiting.
+07/04/24 01:46:08 **** condor (condor_MASTER) pid 27264 EXITING WITH STATUS 0
+07/04/24 01:46:17 ******************************************************
+07/04/24 01:46:17 ** condor (CONDOR_MASTER) STARTING UP
+07/04/24 01:46:17 ** E:\condor\bin\condor_master.exe
+07/04/24 01:46:17 ** SubsystemInfo: name=MASTER type=MASTER(1) class=DAEMON(1)
+07/04/24 01:46:17 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+07/04/24 01:46:17 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:46:17 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:46:17 ** PID = 28032
+07/04/24 01:46:17 ** Log last touched 7/4 01:46:08
+07/04/24 01:46:17 ******************************************************
+07/04/24 01:46:17 Using config source: E:\condor\condor_config
+07/04/24 01:46:17 Using local config sources: 
+07/04/24 01:46:17    E:\condor\condor_config.local
+07/04/24 01:46:17 config Macros = 45, Sorted = 45, StringBytes = 957, TablesBytes = 1668
+07/04/24 01:46:17 CLASSAD_CACHING is OFF
+07/04/24 01:46:17 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:46:17 SharedPortEndpoint: failed to open E:\condor\log/shared_port_ad: No such file or directory
+07/04/24 01:46:17 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+07/04/24 01:46:17 DaemonCore: private command socket at <192.168.0.7:0?alias=LAPTOP-PBUUEJR0&sock=master_28032_389a>
+07/04/24 01:46:17 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+07/04/24 01:46:17 Master restart (GRACEFUL) is watching E:\condor\bin\condor_master.exe (mtime:1696012644)
+07/04/24 01:46:17 Adding/Checking Windows firewall exceptions for all daemons
+07/04/24 01:46:17 WinFirewall Error: Could not find trusted app image E:\condor\bin\condor_vm-gahp.exe
+07/04/24 01:46:17 Starting shared port with port: 9618
+07/04/24 01:46:18 Started DaemonCore process "E:\condor\bin\condor_shared_port.exe", pid and pgroup = 34876
+07/04/24 01:46:18 Waiting for E:\condor\log/shared_port_ad to appear.
+07/04/24 01:46:19 Found E:\condor\log/shared_port_ad.
+07/04/24 01:46:19 Started DaemonCore process "E:\condor\bin\condor_schedd.exe", pid and pgroup = 16376
+07/04/24 01:46:19 Started DaemonCore process "E:\condor\bin\condor_startd.exe", pid and pgroup = 16984
+07/04/24 01:46:19 Daemons::StartAllDaemons all daemons were started
+07/04/24 01:46:21 Setting ready state 'Ready' for STARTD
+07/04/24 01:46:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:46:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:46:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:46:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:46:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 01:51:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:51:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:51:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:51:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:51:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 01:56:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:56:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:56:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:56:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:56:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:01:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:01:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:01:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:01:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:01:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:06:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:06:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:06:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:06:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:06:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:11:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:11:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:11:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:11:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:11:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:16:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:16:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:16:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:16:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:16:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:21:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:21:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:21:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:21:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:21:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:26:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:26:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:26:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:26:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:26:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:31:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:31:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:31:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:31:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:31:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:36:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:36:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:36:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:36:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:36:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:41:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:41:23 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:41:23 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:41:23 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:41:23 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:46:18 Preen pid is 22824
+07/04/24 02:46:18 Preen (pid 22824) exited with status 0
+07/04/24 02:46:24 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:46:24 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:46:24 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:46:24 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:46:24 Failed to start non-blocking update to <192.168.0.7:9618>.

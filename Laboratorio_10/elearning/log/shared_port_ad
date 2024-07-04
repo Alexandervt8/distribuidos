@@ -1,0 +1,9 @@
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 38
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 12
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"

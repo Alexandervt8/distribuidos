@@ -1,0 +1,583 @@
+07/03/24 23:23:13 ******************************************************
+07/03/24 23:23:13 ** condor_startd.exe (CONDOR_STARTD) STARTING UP
+07/03/24 23:23:13 ** E:\condor\bin\condor_startd.exe
+07/03/24 23:23:13 ** SubsystemInfo: name=STARTD type=STARTD(6) class=DAEMON(1)
+07/03/24 23:23:13 ** Configuration: subsystem:STARTD local:<NONE> class:DAEMON
+07/03/24 23:23:13 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/03/24 23:23:13 ** $CondorPlatform: x86_64_Windows10 $
+07/03/24 23:23:13 ** PID = 11348
+07/03/24 23:23:13 ** Log last touched time unavailable (No such file or directory)
+07/03/24 23:23:13 ******************************************************
+07/03/24 23:23:13 Using config source: E:\condor\condor_config
+07/03/24 23:23:13 Using local config sources: 
+07/03/24 23:23:13    E:\condor\condor_config.local
+07/03/24 23:23:13 config Macros = 47, Sorted = 47, StringBytes = 999, TablesBytes = 1740
+07/03/24 23:23:13 CLASSAD_CACHING is ENABLED
+07/03/24 23:23:13 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/03/24 23:23:13 SharedPortEndpoint: listener already created.
+07/03/24 23:23:13 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_3412_2e3a>
+07/03/24 23:23:13 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_3412_2e3a>
+07/03/24 23:23:17 VM universe will be tested to check if it is available
+07/03/24 23:23:17 History file rotation is enabled.
+07/03/24 23:23:17   Maximum history file size is: 20971520 bytes
+07/03/24 23:23:17   Number of rotated history files is: 2
+07/03/24 23:23:17 Allocating auto shares for slot type 0: Cpus: auto, Memory: auto, Swap: auto, Disk: auto
+07/03/24 23:23:17   slot type 0: Cpus: 8.000000, Memory: 12063, Swap: 100.00%, Disk: 100.00%
+07/03/24 23:23:17 slot1: New machine resource allocated
+07/03/24 23:23:17 Running: docker container prune -f --filter=label=org.htcondorproject=True
+07/03/24 23:23:17 CronJobList: Adding job 'kflops'
+07/03/24 23:23:17 CronJobList: Adding job 'mips'
+07/03/24 23:23:17 CronJob: Initializing job 'kflops' (E:\condor\bin\condor_kflops.exe)
+07/03/24 23:23:17 CronJob: Initializing job 'mips' (E:\condor\bin\condor_mips.exe)
+07/03/24 23:23:17 slot1: State change: IS_OWNER is false
+07/03/24 23:23:17 slot1: Changing state: Owner -> Unclaimed
+07/03/24 23:23:17 State change: RunBenchmarks is TRUE
+07/03/24 23:23:17 slot1: Changing activity: Idle -> Benchmarking
+07/03/24 23:23:17 BenchMgr:StartBenchmarks()
+07/03/24 23:23:19 Initial update sent to collector(s)
+07/03/24 23:23:19 Sending DC_SET_READY message to master <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=master_3412_2e3a>
+07/03/24 23:23:19 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:23:19 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:23:19 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:23:19 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:23:19 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:23:47 State change: benchmarks completed
+07/03/24 23:23:47 slot1: Changing activity: Benchmarking -> Idle
+07/03/24 23:23:47 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:23:47 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:23:47 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:23:47 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:23:47 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:28:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:28:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:28:18 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:28:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:28:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:33:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:33:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:33:18 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:33:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:33:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:38:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:38:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:38:18 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:38:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:38:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:43:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:43:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:43:18 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:43:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:43:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:48:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:48:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:48:18 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:48:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:48:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:53:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:53:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:53:18 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:53:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:53:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:58:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:58:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:58:18 SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:58:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:58:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:03:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:03:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:03:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:03:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:03:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:08:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:08:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:08:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:08:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:08:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:13:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:13:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:13:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:13:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:13:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:18:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:18:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:18:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:18:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:18:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:23:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:23:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:23:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:23:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:23:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:28:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:28:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:28:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:28:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:28:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:33:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:33:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:33:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:33:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:33:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:38:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:38:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:38:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:38:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:38:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:43:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:43:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:43:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:43:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:43:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:48:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:48:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:48:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:48:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:48:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:53:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:53:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:53:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:53:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:53:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:58:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:58:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:58:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:58:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:58:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:03:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:03:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:03:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:03:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:03:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:08:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:08:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:08:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:08:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:08:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:13:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:13:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:13:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:13:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:13:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:18:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:18:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:18:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:18:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:18:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:23:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:23:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:23:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:23:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:23:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:28:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:28:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:28:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:28:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:28:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:33:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:33:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:33:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:33:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:33:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:38:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:38:18 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:38:18 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:38:18 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:38:18 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:40:45 Got SIGTERM. Performing graceful shutdown.
+07/04/24 01:40:45 shutdown graceful
+07/04/24 01:40:45 Cron: Killing all jobs
+07/04/24 01:40:45 Cron: Killing all jobs
+07/04/24 01:40:45 Killing job kflops
+07/04/24 01:40:45 Killing job mips
+07/04/24 01:40:45 Deleting cron job manager
+07/04/24 01:40:45 Cron: Killing all jobs
+07/04/24 01:40:45 Cron: Killing all jobs
+07/04/24 01:40:45 CronJobList: Deleting all jobs
+07/04/24 01:40:45 Cron: Killing all jobs
+07/04/24 01:40:45 CronJobList: Deleting all jobs
+07/04/24 01:40:45 Deleting benchmark job mgr
+07/04/24 01:40:45 Cron: Killing all jobs
+07/04/24 01:40:45 Killing job kflops
+07/04/24 01:40:45 Killing job mips
+07/04/24 01:40:45 Cron: Killing all jobs
+07/04/24 01:40:45 Killing job kflops
+07/04/24 01:40:45 Killing job mips
+07/04/24 01:40:45 CronJobList: Deleting all jobs
+07/04/24 01:40:45 CronJobList: Deleting job 'kflops'
+07/04/24 01:40:45 CronJob: Deleting job 'kflops' (E:\condor\bin\condor_kflops.exe), timer -1
+07/04/24 01:40:45 CronJobList: Deleting job 'mips'
+07/04/24 01:40:45 CronJob: Deleting job 'mips' (E:\condor\bin\condor_mips.exe), timer -1
+07/04/24 01:40:45 Cron: Killing all jobs
+07/04/24 01:40:45 CronJobList: Deleting all jobs
+07/04/24 01:40:45 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:40:45 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:40:45 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:40:45 Failed to send update to collector localhost.
+07/04/24 01:40:45 All resources are free, exiting.
+07/04/24 01:40:45 **** condor_startd.exe (condor_STARTD) pid 11348 EXITING WITH STATUS 0
+07/04/24 01:40:47 ******************************************************
+07/04/24 01:40:47 ** condor_startd.exe (CONDOR_STARTD) STARTING UP
+07/04/24 01:40:47 ** E:\condor\bin\condor_startd.exe
+07/04/24 01:40:47 ** SubsystemInfo: name=STARTD type=STARTD(6) class=DAEMON(1)
+07/04/24 01:40:47 ** Configuration: subsystem:STARTD local:<NONE> class:DAEMON
+07/04/24 01:40:47 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:40:47 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:40:47 ** PID = 34088
+07/04/24 01:40:47 ** Log last touched 7/4 01:40:45
+07/04/24 01:40:47 ******************************************************
+07/04/24 01:40:47 Using config source: E:\condor\condor_config
+07/04/24 01:40:47 Using local config sources: 
+07/04/24 01:40:47    E:\condor\condor_config.local
+07/04/24 01:40:47 config Macros = 47, Sorted = 47, StringBytes = 1000, TablesBytes = 1740
+07/04/24 01:40:47 CLASSAD_CACHING is ENABLED
+07/04/24 01:40:47 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:40:47 SharedPortEndpoint: listener already created.
+07/04/24 01:40:47 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_24332_f6c8>
+07/04/24 01:40:47 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_24332_f6c8>
+07/04/24 01:40:48 VM universe will be tested to check if it is available
+07/04/24 01:40:48 History file rotation is enabled.
+07/04/24 01:40:48   Maximum history file size is: 20971520 bytes
+07/04/24 01:40:48   Number of rotated history files is: 2
+07/04/24 01:40:48 Allocating auto shares for slot type 0: Cpus: auto, Memory: auto, Swap: auto, Disk: auto
+07/04/24 01:40:48   slot type 0: Cpus: 8.000000, Memory: 12063, Swap: 100.00%, Disk: 100.00%
+07/04/24 01:40:48 slot1: New machine resource allocated
+07/04/24 01:40:48 Running: docker container prune -f --filter=label=org.htcondorproject=True
+07/04/24 01:40:49 CronJobList: Adding job 'kflops'
+07/04/24 01:40:49 CronJobList: Adding job 'mips'
+07/04/24 01:40:49 CronJob: Initializing job 'kflops' (E:\condor\bin\condor_kflops.exe)
+07/04/24 01:40:49 CronJob: Initializing job 'mips' (E:\condor\bin\condor_mips.exe)
+07/04/24 01:40:49 slot1: State change: IS_OWNER is false
+07/04/24 01:40:49 slot1: Changing state: Owner -> Unclaimed
+07/04/24 01:40:49 State change: RunBenchmarks is TRUE
+07/04/24 01:40:49 slot1: Changing activity: Idle -> Benchmarking
+07/04/24 01:40:49 BenchMgr:StartBenchmarks()
+07/04/24 01:40:49 Initial update sent to collector(s)
+07/04/24 01:40:49 Sending DC_SET_READY message to master <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=master_24332_f6c8>
+07/04/24 01:40:49 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:40:49 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:40:49 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:40:49 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:40:49 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:41:02 Got SIGTERM. Performing graceful shutdown.
+07/04/24 01:41:02 shutdown graceful
+07/04/24 01:41:02 Cron: Killing all jobs
+07/04/24 01:41:02 Cron: Killing all jobs
+07/04/24 01:41:02 Killing job kflops
+07/04/24 01:41:02 Send_Signal SIGTERM to pid 36716 using Shutdown_Graceful
+07/04/24 01:41:02 return value from my_system for softkill: 2
+07/04/24 01:41:02 CronJob: job 'kflops': Failed to send SIGTERM to 36716
+07/04/24 01:41:02 Killing job mips
+07/04/24 01:41:02 CronJob: 'mips': Trying to kill illegal PID -1
+07/04/24 01:41:02 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:41:02 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:02 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:02 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:02 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:41:03 return value from my_system for softkill: 2
+07/04/24 01:41:20 State change: benchmarks completed
+07/04/24 01:41:20 slot1: Changing activity: Benchmarking -> Idle
+07/04/24 01:41:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:41:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:20 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:41:22 Deleting cron job manager
+07/04/24 01:41:22 Cron: Killing all jobs
+07/04/24 01:41:22 Cron: Killing all jobs
+07/04/24 01:41:22 CronJobList: Deleting all jobs
+07/04/24 01:41:22 Cron: Killing all jobs
+07/04/24 01:41:22 CronJobList: Deleting all jobs
+07/04/24 01:41:22 Deleting benchmark job mgr
+07/04/24 01:41:22 Cron: Killing all jobs
+07/04/24 01:41:22 Killing job kflops
+07/04/24 01:41:22 Killing job mips
+07/04/24 01:41:22 Cron: Killing all jobs
+07/04/24 01:41:22 Killing job kflops
+07/04/24 01:41:22 Killing job mips
+07/04/24 01:41:22 CronJobList: Deleting all jobs
+07/04/24 01:41:22 CronJobList: Deleting job 'kflops'
+07/04/24 01:41:22 CronJob: Deleting job 'kflops' (E:\condor\bin\condor_kflops.exe), timer -1
+07/04/24 01:41:22 CronJobList: Deleting job 'mips'
+07/04/24 01:41:22 CronJob: Deleting job 'mips' (E:\condor\bin\condor_mips.exe), timer -1
+07/04/24 01:41:22 Cron: Killing all jobs
+07/04/24 01:41:22 CronJobList: Deleting all jobs
+07/04/24 01:41:22 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:22 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:22 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:22 Failed to send update to collector localhost.
+07/04/24 01:41:22 All resources are free, exiting.
+07/04/24 01:41:22 **** condor_startd.exe (condor_STARTD) pid 34088 EXITING WITH STATUS 0
+07/04/24 01:41:25 ******************************************************
+07/04/24 01:41:25 ** condor_startd.exe (CONDOR_STARTD) STARTING UP
+07/04/24 01:41:25 ** E:\condor\bin\condor_startd.exe
+07/04/24 01:41:25 ** SubsystemInfo: name=STARTD type=STARTD(6) class=DAEMON(1)
+07/04/24 01:41:25 ** Configuration: subsystem:STARTD local:<NONE> class:DAEMON
+07/04/24 01:41:25 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:41:25 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:41:25 ** PID = 29352
+07/04/24 01:41:25 ** Log last touched 7/4 01:41:22
+07/04/24 01:41:25 ******************************************************
+07/04/24 01:41:25 Using config source: E:\condor\condor_config
+07/04/24 01:41:25 Using local config sources: 
+07/04/24 01:41:25    E:\condor\condor_config.local
+07/04/24 01:41:25 config Macros = 47, Sorted = 47, StringBytes = 1000, TablesBytes = 1740
+07/04/24 01:41:25 CLASSAD_CACHING is ENABLED
+07/04/24 01:41:25 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:41:25 SharedPortEndpoint: listener already created.
+07/04/24 01:41:25 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_33432_4c8e>
+07/04/24 01:41:25 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_33432_4c8e>
+07/04/24 01:41:26 VM universe will be tested to check if it is available
+07/04/24 01:41:26 History file rotation is enabled.
+07/04/24 01:41:26   Maximum history file size is: 20971520 bytes
+07/04/24 01:41:26   Number of rotated history files is: 2
+07/04/24 01:41:26 Allocating auto shares for slot type 0: Cpus: auto, Memory: auto, Swap: auto, Disk: auto
+07/04/24 01:41:26   slot type 0: Cpus: 8.000000, Memory: 12063, Swap: 100.00%, Disk: 100.00%
+07/04/24 01:41:26 slot1: New machine resource allocated
+07/04/24 01:41:26 Running: docker container prune -f --filter=label=org.htcondorproject=True
+07/04/24 01:41:26 CronJobList: Adding job 'kflops'
+07/04/24 01:41:26 CronJobList: Adding job 'mips'
+07/04/24 01:41:26 CronJob: Initializing job 'kflops' (E:\condor\bin\condor_kflops.exe)
+07/04/24 01:41:26 CronJob: Initializing job 'mips' (E:\condor\bin\condor_mips.exe)
+07/04/24 01:41:26 slot1: State change: IS_OWNER is false
+07/04/24 01:41:26 slot1: Changing state: Owner -> Unclaimed
+07/04/24 01:41:26 State change: RunBenchmarks is TRUE
+07/04/24 01:41:26 slot1: Changing activity: Idle -> Benchmarking
+07/04/24 01:41:26 BenchMgr:StartBenchmarks()
+07/04/24 01:41:27 Initial update sent to collector(s)
+07/04/24 01:41:27 Sending DC_SET_READY message to master <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=master_33432_4c8e>
+07/04/24 01:41:27 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:41:27 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:27 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:27 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:27 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:41:55 State change: benchmarks completed
+07/04/24 01:41:55 slot1: Changing activity: Benchmarking -> Idle
+07/04/24 01:41:55 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:41:55 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:55 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:55 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:55 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:44:17 Got SIGQUIT.  Performing fast shutdown.
+07/04/24 01:44:17 shutdown fast
+07/04/24 01:44:17 Cron: Killing all jobs
+07/04/24 01:44:17 Cron: Killing all jobs
+07/04/24 01:44:17 Killing job kflops
+07/04/24 01:44:17 Killing job mips
+07/04/24 01:44:17 Deleting cron job manager
+07/04/24 01:44:17 Cron: Killing all jobs
+07/04/24 01:44:17 Cron: Killing all jobs
+07/04/24 01:44:17 CronJobList: Deleting all jobs
+07/04/24 01:44:17 Cron: Killing all jobs
+07/04/24 01:44:17 CronJobList: Deleting all jobs
+07/04/24 01:44:17 Deleting benchmark job mgr
+07/04/24 01:44:17 Cron: Killing all jobs
+07/04/24 01:44:17 Killing job kflops
+07/04/24 01:44:17 Killing job mips
+07/04/24 01:44:17 Cron: Killing all jobs
+07/04/24 01:44:17 Killing job kflops
+07/04/24 01:44:17 Killing job mips
+07/04/24 01:44:17 CronJobList: Deleting all jobs
+07/04/24 01:44:17 CronJobList: Deleting job 'kflops'
+07/04/24 01:44:17 CronJob: Deleting job 'kflops' (E:\condor\bin\condor_kflops.exe), timer -1
+07/04/24 01:44:17 CronJobList: Deleting job 'mips'
+07/04/24 01:44:17 CronJob: Deleting job 'mips' (E:\condor\bin\condor_mips.exe), timer -1
+07/04/24 01:44:17 Cron: Killing all jobs
+07/04/24 01:44:17 CronJobList: Deleting all jobs
+07/04/24 01:44:17 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:44:17 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:44:17 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:44:17 Failed to send update to collector localhost.
+07/04/24 01:44:17 All resources are free, exiting.
+07/04/24 01:44:17 **** condor_startd.exe (condor_STARTD) pid 29352 EXITING WITH STATUS 0
+07/04/24 01:44:39 ******************************************************
+07/04/24 01:44:39 ** condor_startd.exe (CONDOR_STARTD) STARTING UP
+07/04/24 01:44:39 ** E:\condor\bin\condor_startd.exe
+07/04/24 01:44:39 ** SubsystemInfo: name=STARTD type=STARTD(6) class=DAEMON(1)
+07/04/24 01:44:39 ** Configuration: subsystem:STARTD local:<NONE> class:DAEMON
+07/04/24 01:44:39 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:44:39 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:44:39 ** PID = 28036
+07/04/24 01:44:39 ** Log last touched 7/4 01:44:17
+07/04/24 01:44:39 ******************************************************
+07/04/24 01:44:39 Using config source: E:\condor\condor_config
+07/04/24 01:44:39 Using local config sources: 
+07/04/24 01:44:39    E:\condor\condor_config.local
+07/04/24 01:44:39 config Macros = 47, Sorted = 47, StringBytes = 1000, TablesBytes = 1740
+07/04/24 01:44:39 CLASSAD_CACHING is ENABLED
+07/04/24 01:44:39 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:44:39 SharedPortEndpoint: listener already created.
+07/04/24 01:44:39 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_27264_5d96>
+07/04/24 01:44:39 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_27264_5d96>
+07/04/24 01:44:41 VM universe will be tested to check if it is available
+07/04/24 01:44:41 History file rotation is enabled.
+07/04/24 01:44:41   Maximum history file size is: 20971520 bytes
+07/04/24 01:44:41   Number of rotated history files is: 2
+07/04/24 01:44:41 Allocating auto shares for slot type 0: Cpus: auto, Memory: auto, Swap: auto, Disk: auto
+07/04/24 01:44:41   slot type 0: Cpus: 8.000000, Memory: 12063, Swap: 100.00%, Disk: 100.00%
+07/04/24 01:44:41 slot1: New machine resource allocated
+07/04/24 01:44:41 Running: docker container prune -f --filter=label=org.htcondorproject=True
+07/04/24 01:44:41 CronJobList: Adding job 'kflops'
+07/04/24 01:44:41 CronJobList: Adding job 'mips'
+07/04/24 01:44:41 CronJob: Initializing job 'kflops' (E:\condor\bin\condor_kflops.exe)
+07/04/24 01:44:41 CronJob: Initializing job 'mips' (E:\condor\bin\condor_mips.exe)
+07/04/24 01:44:41 slot1: State change: IS_OWNER is false
+07/04/24 01:44:41 slot1: Changing state: Owner -> Unclaimed
+07/04/24 01:44:41 State change: RunBenchmarks is TRUE
+07/04/24 01:44:41 slot1: Changing activity: Idle -> Benchmarking
+07/04/24 01:44:41 BenchMgr:StartBenchmarks()
+07/04/24 01:44:41 Initial update sent to collector(s)
+07/04/24 01:44:41 Sending DC_SET_READY message to master <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=master_27264_5d96>
+07/04/24 01:44:41 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:44:41 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:44:41 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:44:41 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:44:41 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:45:13 State change: benchmarks completed
+07/04/24 01:45:13 slot1: Changing activity: Benchmarking -> Idle
+07/04/24 01:45:13 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:45:13 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:45:13 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:45:13 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:45:13 Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:46:08 Got SIGQUIT.  Performing fast shutdown.
+07/04/24 01:46:08 shutdown fast
+07/04/24 01:46:08 Cron: Killing all jobs
+07/04/24 01:46:08 Cron: Killing all jobs
+07/04/24 01:46:08 Killing job kflops
+07/04/24 01:46:08 Killing job mips
+07/04/24 01:46:08 Deleting cron job manager
+07/04/24 01:46:08 Cron: Killing all jobs
+07/04/24 01:46:08 Cron: Killing all jobs
+07/04/24 01:46:08 CronJobList: Deleting all jobs
+07/04/24 01:46:08 Cron: Killing all jobs
+07/04/24 01:46:08 CronJobList: Deleting all jobs
+07/04/24 01:46:08 Deleting benchmark job mgr
+07/04/24 01:46:08 Cron: Killing all jobs
+07/04/24 01:46:08 Killing job kflops
+07/04/24 01:46:08 Killing job mips
+07/04/24 01:46:08 Cron: Killing all jobs
+07/04/24 01:46:08 Killing job kflops
+07/04/24 01:46:08 Killing job mips
+07/04/24 01:46:08 CronJobList: Deleting all jobs
+07/04/24 01:46:08 CronJobList: Deleting job 'kflops'
+07/04/24 01:46:08 CronJob: Deleting job 'kflops' (E:\condor\bin\condor_kflops.exe), timer -1
+07/04/24 01:46:08 CronJobList: Deleting job 'mips'
+07/04/24 01:46:08 CronJob: Deleting job 'mips' (E:\condor\bin\condor_mips.exe), timer -1
+07/04/24 01:46:08 Cron: Killing all jobs
+07/04/24 01:46:08 CronJobList: Deleting all jobs
+07/04/24 01:46:08 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:46:08 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:46:08 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:46:08 Failed to send update to collector localhost.
+07/04/24 01:46:08 All resources are free, exiting.
+07/04/24 01:46:08 **** condor_startd.exe (condor_STARTD) pid 28036 EXITING WITH STATUS 0
+07/04/24 01:46:19 ******************************************************
+07/04/24 01:46:19 ** condor_startd.exe (CONDOR_STARTD) STARTING UP
+07/04/24 01:46:19 ** E:\condor\bin\condor_startd.exe
+07/04/24 01:46:19 ** SubsystemInfo: name=STARTD type=STARTD(6) class=DAEMON(1)
+07/04/24 01:46:19 ** Configuration: subsystem:STARTD local:<NONE> class:DAEMON
+07/04/24 01:46:19 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:46:19 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:46:19 ** PID = 16984
+07/04/24 01:46:19 ** Log last touched 7/4 01:46:08
+07/04/24 01:46:19 ******************************************************
+07/04/24 01:46:19 Using config source: E:\condor\condor_config
+07/04/24 01:46:19 Using local config sources: 
+07/04/24 01:46:19    E:\condor\condor_config.local
+07/04/24 01:46:19 config Macros = 45, Sorted = 45, StringBytes = 958, TablesBytes = 1668
+07/04/24 01:46:19 CLASSAD_CACHING is ENABLED
+07/04/24 01:46:19 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:46:19 SharedPortEndpoint: listener already created.
+07/04/24 01:46:19 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_28032_389a>
+07/04/24 01:46:19 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=startd_28032_389a>
+07/04/24 01:46:20 VM universe will be tested to check if it is available
+07/04/24 01:46:20 History file rotation is enabled.
+07/04/24 01:46:20   Maximum history file size is: 20971520 bytes
+07/04/24 01:46:20   Number of rotated history files is: 2
+07/04/24 01:46:20 Allocating auto shares for slot type 0: Cpus: auto, Memory: auto, Swap: auto, Disk: auto
+07/04/24 01:46:20   slot type 0: Cpus: 8.000000, Memory: 12063, Swap: 100.00%, Disk: 100.00%
+07/04/24 01:46:20 slot1: New machine resource allocated
+07/04/24 01:46:20 Running: docker container prune -f --filter=label=org.htcondorproject=True
+07/04/24 01:46:20 CronJobList: Adding job 'kflops'
+07/04/24 01:46:20 CronJobList: Adding job 'mips'
+07/04/24 01:46:20 CronJob: Initializing job 'kflops' (E:\condor\bin\condor_kflops.exe)
+07/04/24 01:46:20 CronJob: Initializing job 'mips' (E:\condor\bin\condor_mips.exe)
+07/04/24 01:46:20 slot1: State change: IS_OWNER is false
+07/04/24 01:46:20 slot1: Changing state: Owner -> Unclaimed
+07/04/24 01:46:20 State change: RunBenchmarks is TRUE
+07/04/24 01:46:20 slot1: Changing activity: Idle -> Benchmarking
+07/04/24 01:46:20 BenchMgr:StartBenchmarks()
+07/04/24 01:46:21 Initial update sent to collector(s)
+07/04/24 01:46:21 Sending DC_SET_READY message to master <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=master_28032_389a>
+07/04/24 01:46:21 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:46:21 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:46:21 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:46:21 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:46:21 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 01:46:55 State change: benchmarks completed
+07/04/24 01:46:55 slot1: Changing activity: Benchmarking -> Idle
+07/04/24 01:46:55 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:46:55 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:46:55 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:46:55 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:46:55 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 01:51:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:51:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:51:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:51:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:51:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 01:56:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:56:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:56:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:56:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:56:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:01:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:01:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:01:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:01:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:01:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:06:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:06:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:06:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:06:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:06:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:11:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:11:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:11:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:11:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:11:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:16:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:16:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:16:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:16:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:16:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:21:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:21:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:21:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:21:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:21:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:26:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:26:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:26:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:26:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:26:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:31:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:31:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:31:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:31:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:31:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:36:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:36:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:36:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:36:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:36:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:41:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:41:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:41:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:41:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:41:20 Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:46:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:46:20 condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:46:20 SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:46:20 ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:46:20 Failed to start non-blocking update to <192.168.0.7:9618>.

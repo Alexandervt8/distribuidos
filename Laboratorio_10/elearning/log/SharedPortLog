@@ -1,0 +1,825 @@
+07/03/24 23:09:05 ******************************************************
+07/03/24 23:09:05 ** condor_shared_port.exe (CONDOR_SHARED_PORT) STARTING UP
+07/03/24 23:09:05 ** E:\condor\bin\condor_shared_port.exe
+07/03/24 23:09:05 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(10) class=DAEMON(1)
+07/03/24 23:09:05 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+07/03/24 23:09:05 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/03/24 23:09:05 ** $CondorPlatform: x86_64_Windows10 $
+07/03/24 23:09:05 ** PID = 24104
+07/03/24 23:09:05 ** Log last touched time unavailable (No such file or directory)
+07/03/24 23:09:05 ******************************************************
+07/03/24 23:09:05 Using config source: E:\condor\condor_config
+07/03/24 23:09:05 Using local config sources: 
+07/03/24 23:09:05    E:\condor\condor_config.local
+07/03/24 23:09:05 config Macros = 47, Sorted = 47, StringBytes = 1005, TablesBytes = 1740
+07/03/24 23:09:05 CLASSAD_CACHING is ENABLED
+07/03/24 23:09:05 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/03/24 23:09:05 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+07/03/24 23:09:05 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>
+07/03/24 23:09:05 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0>
+07/03/24 23:09:05 main_init() called
+07/03/24 23:09:05 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 0
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 0
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:14:05 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 0
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 1
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:18:33 ERROR: SharedPortClient: Failed to open named pipe id 'collector_6288'  as requested by <192.168.0.7:55589> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:19:05 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 1
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 1
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:19:53 ERROR: SharedPortClient: Failed to open named pipe id 'collector_6288'  as requested by <192.168.0.7:55966> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:22:58 Got SIGTERM. Performing graceful shutdown.
+07/03/24 23:22:58 main_shutdown_graceful() called
+07/03/24 23:22:58 **** condor_shared_port.exe (condor_SHARED_PORT) pid 24104 EXITING WITH STATUS 0
+07/03/24 23:23:11 ******************************************************
+07/03/24 23:23:11 ** condor_shared_port.exe (CONDOR_SHARED_PORT) STARTING UP
+07/03/24 23:23:11 ** E:\condor\bin\condor_shared_port.exe
+07/03/24 23:23:11 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(10) class=DAEMON(1)
+07/03/24 23:23:11 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+07/03/24 23:23:11 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/03/24 23:23:11 ** $CondorPlatform: x86_64_Windows10 $
+07/03/24 23:23:11 ** PID = 6072
+07/03/24 23:23:11 ** Log last touched 7/3 23:22:58
+07/03/24 23:23:11 ******************************************************
+07/03/24 23:23:11 Using config source: E:\condor\condor_config
+07/03/24 23:23:11 Using local config sources: 
+07/03/24 23:23:11    E:\condor\condor_config.local
+07/03/24 23:23:11 config Macros = 48, Sorted = 48, StringBytes = 1023, TablesBytes = 1776
+07/03/24 23:23:11 CLASSAD_CACHING is ENABLED
+07/03/24 23:23:11 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/03/24 23:23:11 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+07/03/24 23:23:11 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>
+07/03/24 23:23:11 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0>
+07/03/24 23:23:11 main_init() called
+07/03/24 23:23:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 0
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 0
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:23:13 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56920> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:23:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56943> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:23:19 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56949> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:23:47 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:57075> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:24:06 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:57152> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:28:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 5
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 8
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:28:14 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58313> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:28:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58322> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:28:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58326> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:31:15 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59146> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:33:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 9
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 12
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:33:14 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59708> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:33:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59713> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:33:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59731> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:35:03 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60239> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:35:04 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60244> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:35:04 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60243> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:38:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 15
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 17
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:38:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61107> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:38:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61128> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:40:04 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61602> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:40:04 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61601> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:43:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 19
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 20
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:43:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62437> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:43:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62454> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:45:05 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62916> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:45:05 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62915> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:48:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 23
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 20
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:48:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:63760> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:48:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:63765> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:50:05 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64226> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:50:05 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64225> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:50:32 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64360> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:51:30 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64607> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:51:30 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64612> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:51:30 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64611> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:53:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 31
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 26
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:53:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:65072> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:53:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:65093> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:56:31 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:49570> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:56:31 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:49569> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:58:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 35
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 26
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/03/24 23:58:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:50115> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:58:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:50116> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:58:49 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:50256> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:58:49 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:50261> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/03/24 23:58:49 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:50260> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:03:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 40
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 33
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:03:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51443> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:03:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51460> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:03:50 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51595> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:03:50 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51594> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:08:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 44
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 33
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:08:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:52789> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:08:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:52798> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:08:51 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:52949> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:08:51 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:52948> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:13:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 48
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 33
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:13:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:54133> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:13:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:54135> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:13:51 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:54299> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:13:51 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:54298> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:18:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 52
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 33
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:18:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:55489> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:18:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:55495> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:18:52 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:55651> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:18:52 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:55650> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:23:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 56
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 36
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:23:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56829> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:23:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56831> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:23:52 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56996> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:23:52 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56995> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:28:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 60
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 37
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:28:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58229> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:28:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58230> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:28:53 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58398> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:28:53 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58397> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:29:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58517> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:29:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58522> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:29:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58521> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:33:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 67
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 41
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:33:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59578> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:33:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59587> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:34:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59852> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:34:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59851> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:38:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 71
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 41
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:38:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60971> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:38:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60989> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:39:19 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61263> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:39:19 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61262> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:43:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 75
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 44
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:43:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62346> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:43:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62347> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:44:19 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62625> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:44:19 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62624> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:44:32 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:62688> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:48:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 80
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 45
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:48:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:63680> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:48:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:63696> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:49:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:63974> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:49:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:63973> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:51:36 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64575> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:51:36 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64580> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:51:36 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64579> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:51:46 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64624> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:51:46 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64629> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:51:46 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:64628> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:53:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 90
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 52
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:53:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:65037> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:53:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:65042> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:56:46 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:49594> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:56:46 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:49593> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:58:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 94
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 53
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 00:58:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:50085> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 00:58:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:50102> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:01:47 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51051> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:01:47 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51050> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:02:30 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51243> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:02:30 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51252> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:02:30 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51251> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:02:39 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51284> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:02:39 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51289> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:02:39 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51288> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:03:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 104
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 65
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:03:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51451> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:03:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:51476> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:07:40 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:52650> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:07:40 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:52649> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:08:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 108
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 66
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:08:16 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:52813> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:08:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:52818> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:12:41 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:53994> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:12:41 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:53993> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:13:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 112
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 67
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:13:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:54152> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:13:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:54169> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:17:42 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:55329> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:17:42 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:55328> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:18:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 116
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 67
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:18:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:55489> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:18:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:55490> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:22:43 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56632> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:22:43 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56631> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:23:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 120
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 70
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:23:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56789> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:23:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56793> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:23:38 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:56887> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:25:32 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:57409> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:25:40 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:57454> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:27:43 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58010> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:27:43 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58009> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:28:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 127
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 76
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:28:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58152> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:28:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58165> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:29:06 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58368> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:29:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:58421> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:31:32 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59034> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:31:32 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59039> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:31:32 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59038> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:32:09 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59190> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:32:09 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59195> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:32:09 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59194> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:32:21 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59255> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:32:21 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59260> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:32:21 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59259> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:33:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 140
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 90
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:33:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59510> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:33:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:59512> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:37:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60598> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:37:21 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60600> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:37:21 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60599> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:38:11 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 145
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 90
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:38:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60878> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:38:18 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:60880> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:40:45 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61558> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:40:45 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61560> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:40:45 ERROR: SharedPortClient: Failed to open named pipe id 'collector_3412'  as requested by <127.0.0.1:61561> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:40:45 Got SIGTERM. Performing graceful shutdown.
+07/04/24 01:40:45 main_shutdown_graceful() called
+07/04/24 01:40:45 **** condor_shared_port.exe (condor_SHARED_PORT) pid 6072 EXITING WITH STATUS 0
+07/04/24 01:40:46 ******************************************************
+07/04/24 01:40:46 ** condor_shared_port.exe (CONDOR_SHARED_PORT) STARTING UP
+07/04/24 01:40:46 ** E:\condor\bin\condor_shared_port.exe
+07/04/24 01:40:46 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(10) class=DAEMON(1)
+07/04/24 01:40:46 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+07/04/24 01:40:46 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:40:46 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:40:46 ** PID = 33624
+07/04/24 01:40:46 ** Log last touched 7/4 01:40:45
+07/04/24 01:40:46 ******************************************************
+07/04/24 01:40:46 Using config source: E:\condor\condor_config
+07/04/24 01:40:46 Using local config sources: 
+07/04/24 01:40:46    E:\condor\condor_config.local
+07/04/24 01:40:46 config Macros = 48, Sorted = 48, StringBytes = 1026, TablesBytes = 1776
+07/04/24 01:40:46 CLASSAD_CACHING is ENABLED
+07/04/24 01:40:46 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:40:46 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+07/04/24 01:40:46 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>
+07/04/24 01:40:46 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0>
+07/04/24 01:40:46 main_init() called
+07/04/24 01:40:46 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 0
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 0
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:40:48 ERROR: SharedPortClient: Failed to open named pipe id 'collector_24332'  as requested by <127.0.0.1:61587> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:40:49 ERROR: SharedPortClient: Failed to open named pipe id 'collector_24332'  as requested by <127.0.0.1:61599> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:40:51 ERROR: SharedPortClient: Failed to open named pipe id 'collector_24332'  as requested by <127.0.0.1:61617> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:02 ERROR: SharedPortClient: Failed to open named pipe id 'collector_24332'  as requested by <127.0.0.1:61666> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_24332'  as requested by <127.0.0.1:61742> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:22 ERROR: SharedPortClient: Failed to open named pipe id 'collector_24332'  as requested by <127.0.0.1:61763> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:22 ERROR: SharedPortClient: Failed to open named pipe id 'collector_24332'  as requested by <127.0.0.1:61765> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:22 ERROR: SharedPortClient: Failed to open named pipe id 'collector_24332'  as requested by <127.0.0.1:61766> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:22 Got SIGTERM. Performing graceful shutdown.
+07/04/24 01:41:22 main_shutdown_graceful() called
+07/04/24 01:41:22 **** condor_shared_port.exe (condor_SHARED_PORT) pid 33624 EXITING WITH STATUS 0
+07/04/24 01:41:24 ******************************************************
+07/04/24 01:41:24 ** condor_shared_port.exe (CONDOR_SHARED_PORT) STARTING UP
+07/04/24 01:41:24 ** E:\condor\bin\condor_shared_port.exe
+07/04/24 01:41:24 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(10) class=DAEMON(1)
+07/04/24 01:41:24 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+07/04/24 01:41:24 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:41:24 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:41:24 ** PID = 29448
+07/04/24 01:41:24 ** Log last touched 7/4 01:41:22
+07/04/24 01:41:24 ******************************************************
+07/04/24 01:41:24 Using config source: E:\condor\condor_config
+07/04/24 01:41:24 Using local config sources: 
+07/04/24 01:41:24    E:\condor\condor_config.local
+07/04/24 01:41:24 config Macros = 48, Sorted = 48, StringBytes = 1026, TablesBytes = 1776
+07/04/24 01:41:24 CLASSAD_CACHING is ENABLED
+07/04/24 01:41:24 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:41:24 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+07/04/24 01:41:24 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>
+07/04/24 01:41:24 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0>
+07/04/24 01:41:24 main_init() called
+07/04/24 01:41:24 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 0
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 0
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:41:25 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:61784> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:27 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:61799> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:29 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:61808> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:41:55 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:61928> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:42:35 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:62103> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:43:02 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:62233> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:44:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:62557> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:44:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:62561> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:44:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:62560> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:44:17 ERROR: SharedPortClient: Failed to open named pipe id 'collector_33432'  as requested by <127.0.0.1:62562> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:44:17 Got SIGTERM. Performing graceful shutdown.
+07/04/24 01:44:17 main_shutdown_graceful() called
+07/04/24 01:44:17 **** condor_shared_port.exe (condor_SHARED_PORT) pid 29448 EXITING WITH STATUS 0
+07/04/24 01:44:39 ******************************************************
+07/04/24 01:44:39 ** condor_shared_port.exe (CONDOR_SHARED_PORT) STARTING UP
+07/04/24 01:44:39 ** E:\condor\bin\condor_shared_port.exe
+07/04/24 01:44:39 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(10) class=DAEMON(1)
+07/04/24 01:44:39 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+07/04/24 01:44:39 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:44:39 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:44:39 ** PID = 20708
+07/04/24 01:44:39 ** Log last touched 7/4 01:44:17
+07/04/24 01:44:39 ******************************************************
+07/04/24 01:44:39 Using config source: E:\condor\condor_config
+07/04/24 01:44:39 Using local config sources: 
+07/04/24 01:44:39    E:\condor\condor_config.local
+07/04/24 01:44:39 config Macros = 48, Sorted = 48, StringBytes = 1026, TablesBytes = 1776
+07/04/24 01:44:39 CLASSAD_CACHING is ENABLED
+07/04/24 01:44:39 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:44:39 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+07/04/24 01:44:39 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>
+07/04/24 01:44:39 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0>
+07/04/24 01:44:39 main_init() called
+07/04/24 01:44:39 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 0
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 0
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:44:40 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:62681> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:44:41 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:62688> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:44:44 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:62709> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:45:02 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:62775> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:45:13 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:62824> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:08 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:63070> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:08 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:63073> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:08 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:63075> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:08 ERROR: SharedPortClient: Failed to open named pipe id 'collector_27264'  as requested by <127.0.0.1:63074> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:08 Got SIGTERM. Performing graceful shutdown.
+07/04/24 01:46:08 main_shutdown_graceful() called
+07/04/24 01:46:08 **** condor_shared_port.exe (condor_SHARED_PORT) pid 20708 EXITING WITH STATUS 0
+07/04/24 01:46:18 ******************************************************
+07/04/24 01:46:18 ** condor_shared_port.exe (CONDOR_SHARED_PORT) STARTING UP
+07/04/24 01:46:18 ** E:\condor\bin\condor_shared_port.exe
+07/04/24 01:46:18 ** SubsystemInfo: name=SHARED_PORT type=SHARED_PORT(10) class=DAEMON(1)
+07/04/24 01:46:18 ** Configuration: subsystem:SHARED_PORT local:<NONE> class:DAEMON
+07/04/24 01:46:18 ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:46:18 ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:46:18 ** PID = 34876
+07/04/24 01:46:18 ** Log last touched 7/4 01:46:08
+07/04/24 01:46:18 ******************************************************
+07/04/24 01:46:18 Using config source: E:\condor\condor_config
+07/04/24 01:46:18 Using local config sources: 
+07/04/24 01:46:18    E:\condor\condor_config.local
+07/04/24 01:46:18 config Macros = 46, Sorted = 46, StringBytes = 984, TablesBytes = 1704
+07/04/24 01:46:18 CLASSAD_CACHING is ENABLED
+07/04/24 01:46:18 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:46:18 Daemoncore: Listening at <0.0.0.0:9618> on TCP (ReliSock).
+07/04/24 01:46:18 DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>
+07/04/24 01:46:18 DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0>
+07/04/24 01:46:18 main_init() called
+07/04/24 01:46:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 0
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 0
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:46:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:63136> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:21 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:63155> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:63160> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:30 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:63200> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:46:55 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:63296> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:51:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 5
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 4
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:51:19 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:64466> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:51:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:64479> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:51:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:64487> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:56:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 8
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 4
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 01:56:19 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:49440> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:56:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:49445> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 01:56:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:49466> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:01:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 11
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 4
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:01:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:50843> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:01:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:50847> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:01:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:50865> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:06:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 14
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 6
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:06:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:52182> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:06:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:52183> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:06:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:52200> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:11:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 17
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 7
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:11:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:53502> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:11:21 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:53515> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:11:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:53523> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:16:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 20
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 7
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:16:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:54835> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:16:22 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:54844> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:16:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:54857> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:21:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 23
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 7
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:21:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:56163> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:21:22 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:56182> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:21:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:56184> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:26:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 26
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 9
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:26:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:57513> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:26:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:57534> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:26:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:57535> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:31:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 29
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 10
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:31:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:58837> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:31:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:58846> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:31:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:58859> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:36:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 32
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 10
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:36:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:60182> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:36:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:60200> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:36:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:60201> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:41:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 35
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 10
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:41:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:61582> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:41:23 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:61586> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:41:24 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:61592> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:46:18 About to update statistics in shared_port daemon ad file at E:\condor\log/shared_port_ad :
+ForkedChildrenCurrent = 0
+ForkedChildrenPeak = 0
+MyAddress = "<192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP>"
+RequestsBlocked = 0
+RequestsFailed = 38
+RequestsPendingCurrent = 0
+RequestsPendingPeak = 0
+RequestsSucceeded = 12
+SharedPortCommandSinfuls = "<192.168.0.7:9618?alias=LAPTOP-PBUUEJR0>"
+07/04/24 02:46:20 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:62930> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:46:24 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:62954> for sending socket: 2 El sistema no puede encontrar el archivo especificado.
+07/04/24 02:46:24 ERROR: SharedPortClient: Failed to open named pipe id 'collector_28032'  as requested by <192.168.0.7:62956> for sending socket: 2 El sistema no puede encontrar el archivo especificado.

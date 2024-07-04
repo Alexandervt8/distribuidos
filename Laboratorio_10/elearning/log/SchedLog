@@ -1,0 +1,617 @@
+07/03/24 23:23:12 (pid:26248) ******************************************************
+07/03/24 23:23:12 (pid:26248) ** condor_schedd.exe (CONDOR_SCHEDD) STARTING UP
+07/03/24 23:23:12 (pid:26248) ** E:\condor\bin\condor_schedd.exe
+07/03/24 23:23:12 (pid:26248) ** SubsystemInfo: name=SCHEDD type=SCHEDD(4) class=DAEMON(1)
+07/03/24 23:23:12 (pid:26248) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+07/03/24 23:23:12 (pid:26248) ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/03/24 23:23:12 (pid:26248) ** $CondorPlatform: x86_64_Windows10 $
+07/03/24 23:23:12 (pid:26248) ** PID = 26248
+07/03/24 23:23:12 (pid:26248) ** Log last touched time unavailable (No such file or directory)
+07/03/24 23:23:12 (pid:26248) ******************************************************
+07/03/24 23:23:12 (pid:26248) Using config source: E:\condor\condor_config
+07/03/24 23:23:12 (pid:26248) Using local config sources: 
+07/03/24 23:23:12 (pid:26248)    E:\condor\condor_config.local
+07/03/24 23:23:12 (pid:26248) config Macros = 47, Sorted = 47, StringBytes = 999, TablesBytes = 1740
+07/03/24 23:23:12 (pid:26248) CLASSAD_CACHING is ENABLED
+07/03/24 23:23:12 (pid:26248) Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/03/24 23:23:12 (pid:26248) SharedPortEndpoint: listener already created.
+07/03/24 23:23:12 (pid:26248) DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_3412_2e3a>
+07/03/24 23:23:12 (pid:26248) DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_3412_2e3a>
+07/03/24 23:23:13 (pid:26248) History file rotation is enabled.
+07/03/24 23:23:13 (pid:26248)   Maximum history file size is: 20971520 bytes
+07/03/24 23:23:13 (pid:26248)   Number of rotated history files is: 2
+07/03/24 23:23:13 (pid:26248) config super users : condor,SYSTEM
+07/03/24 23:23:13 (pid:26248) Reloading job factories
+07/03/24 23:23:13 (pid:26248) Loaded 0 job factories, 0 were paused, 0 failed to load
+07/03/24 23:23:13 (pid:26248) TransferQueueManager stats: active up=0/100 down=0/100; waiting up=0 down=0; wait time up=0s down=0s
+07/03/24 23:23:13 (pid:26248) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/03/24 23:23:13 (pid:26248) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/03/24 23:23:13 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:23:13 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:23:13 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:23:13 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:23:13 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:25:07 (pid:26248) Failed to log in avalt@LAPTOP-PBUUEJR0 with err=1326
+07/03/24 23:26:41 (pid:26248) Failed to log in avalt@LAPTOP-PBUUEJR0 with err=1326
+07/03/24 23:27:20 (pid:26248) Failed to log in avalt@LAPTOP-PBUUEJR0 with err=1326
+07/03/24 23:28:14 (pid:26248) Failed to log in avalt@LAPTOP-PBUUEJR0 with err=1326
+07/03/24 23:28:14 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:28:14 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:28:14 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:28:14 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:28:14 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:28:29 (pid:26248) Failed to log in avalt@LAPTOP-PBUUEJR0 with err=1326
+07/03/24 23:31:02 (pid:26248) Failed to log in avalt@LAPTOP-PBUUEJR0 with err=1326
+07/03/24 23:33:14 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:33:14 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:33:14 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:33:14 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:33:14 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:35:03 (pid:26248) Owner avalt@laptop-pbuuejr0 has no JobQueueUserRec
+07/03/24 23:35:04 (pid:26248) WriteUserLog::initialize: CreateFile/_open_osfhandle("E:\condor\logs\test.log") failed - err 3 (El sistema no puede encontrar la ruta especificada.)
+07/03/24 23:35:04 (pid:26248) WriteUserLog::initialize: failed to open file E:\condor\logs\test.log
+07/03/24 23:35:04 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/03/24 23:35:04 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:35:04 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:35:04 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/03/24 23:35:04 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:35:04 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:35:04 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:35:04 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:35:04 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:40:04 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/03/24 23:40:04 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:40:04 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:40:04 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/03/24 23:40:04 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:40:04 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:40:04 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:40:04 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:40:04 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:45:05 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/03/24 23:45:05 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:45:05 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:45:05 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/03/24 23:45:05 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:45:05 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:45:05 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:45:05 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:45:05 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:50:05 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/03/24 23:50:05 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:50:05 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:50:05 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/03/24 23:50:05 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:50:05 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:50:05 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:50:05 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:50:05 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:50:32 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from <192.168.0.7:64362>, errno=10054 
+07/03/24 23:51:30 (pid:26248) WriteUserLog::initialize: CreateFile/_open_osfhandle("E:\condor\logs\test.log") failed - err 3 (El sistema no puede encontrar la ruta especificada.)
+07/03/24 23:51:30 (pid:26248) WriteUserLog::initialize: failed to open file E:\condor\logs\test.log
+07/03/24 23:51:30 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/03/24 23:51:30 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:51:30 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:51:30 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/03/24 23:51:30 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:51:30 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:51:30 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:51:30 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:51:30 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:56:31 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/03/24 23:56:31 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:56:31 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:56:31 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/03/24 23:56:31 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:56:31 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:56:31 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:56:31 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:56:31 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/03/24 23:58:49 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/03/24 23:58:49 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:58:49 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:58:49 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/03/24 23:58:49 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/03/24 23:58:49 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/03/24 23:58:49 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/03/24 23:58:49 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/03/24 23:58:49 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:03:50 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:03:50 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:03:50 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:03:50 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:03:50 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:03:50 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:03:50 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:03:50 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:03:50 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:08:51 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:08:51 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:08:51 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:08:51 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:08:51 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:08:51 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:08:51 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:08:51 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:08:51 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:13:51 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:13:51 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:13:51 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:13:51 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:13:51 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:13:51 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:13:51 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:13:51 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:13:51 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:18:52 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:18:52 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:18:52 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:18:52 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:18:52 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:18:52 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:18:52 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:18:52 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:18:52 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:23:52 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:23:52 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:23:52 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:23:52 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:23:52 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:23:52 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:23:52 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:23:52 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:23:52 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:28:53 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:28:53 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:28:53 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:28:53 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:28:53 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:28:53 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:28:53 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:28:53 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:28:53 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:29:17 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:29:17 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:29:17 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:29:17 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:29:17 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:29:17 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:29:17 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:29:17 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:29:17 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:34:18 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:34:18 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:34:18 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:34:18 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:34:18 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:34:18 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:34:18 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:34:18 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:34:18 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:39:19 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:39:19 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:39:19 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:39:19 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:39:19 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:39:19 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:39:19 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:39:19 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:39:19 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:44:19 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:44:19 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:44:19 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:44:19 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:44:19 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:44:19 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:44:19 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:44:19 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:44:19 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:49:20 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:49:20 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:49:20 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:49:20 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:49:20 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:49:20 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:49:20 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:49:20 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:49:20 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:51:36 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:51:36 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:51:36 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:51:36 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:51:36 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:51:36 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:51:36 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:51:36 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:51:36 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:51:46 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:51:46 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:51:46 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:51:46 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:51:46 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:51:46 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:51:46 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:51:46 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:51:46 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 00:56:46 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 00:56:46 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:56:46 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:56:46 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 00:56:46 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 00:56:46 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 00:56:46 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 00:56:46 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 00:56:46 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:01:47 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:01:47 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:01:47 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:01:47 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:01:47 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:01:47 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:01:47 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:01:47 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:01:47 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:02:30 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:02:30 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:02:30 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:02:30 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:02:30 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:02:30 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:02:30 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:02:30 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:02:30 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:02:39 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:02:39 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:02:39 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:02:39 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:02:39 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:02:39 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:02:39 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:02:39 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:02:39 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:07:40 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:07:40 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:07:40 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:07:40 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:07:40 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:07:40 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:07:40 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:07:40 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:07:40 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:12:41 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:12:41 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:12:41 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:12:41 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:12:41 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:12:41 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:12:41 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:12:41 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:12:41 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:17:42 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:17:42 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:17:42 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:17:42 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:17:42 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:17:42 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:17:42 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:17:42 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:17:42 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:22:43 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:22:43 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:22:43 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:22:43 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:22:43 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:22:43 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:22:43 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:22:43 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:22:43 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:23:38 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from <192.168.0.7:56889>, errno=10054 
+07/04/24 01:25:32 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from <192.168.0.7:57411>, errno=10054 
+07/04/24 01:25:40 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from <192.168.0.7:57456>, errno=10054 
+07/04/24 01:27:43 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:27:43 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:27:43 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:27:43 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:27:43 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:27:43 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:27:43 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:27:43 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:27:43 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:29:06 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from <192.168.0.7:58370>, errno=10054 
+07/04/24 01:29:18 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from <192.168.0.7:58423>, errno=10054 
+07/04/24 01:31:32 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:31:32 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:31:32 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:31:32 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:31:32 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:31:32 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:31:32 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:31:32 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:31:32 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:32:09 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:32:09 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:32:09 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:32:09 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:32:09 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:32:09 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:32:09 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:32:09 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:32:09 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:32:21 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:32:21 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:32:21 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:32:21 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:32:21 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:32:21 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:32:21 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:32:21 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:32:21 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:37:21 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector at <127.0.0.1:9618>, errno=10054 
+07/04/24 01:37:21 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:37:21 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:37:21 (pid:26248) Failed to send RESCHEDULE to unknown daemon: 
+07/04/24 01:37:21 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:37:21 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:37:21 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:37:21 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:37:21 (pid:26248) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:40:45 (pid:26248) Got SIGTERM. Performing graceful shutdown.
+07/04/24 01:40:45 (pid:26248) Deleting CronJobMgr
+07/04/24 01:40:45 (pid:26248) Cron: Killing all jobs
+07/04/24 01:40:45 (pid:26248) Cron: Killing all jobs
+07/04/24 01:40:45 (pid:26248) CronJobList: Deleting all jobs
+07/04/24 01:40:45 (pid:26248) Cron: Killing all jobs
+07/04/24 01:40:45 (pid:26248) CronJobList: Deleting all jobs
+07/04/24 01:40:45 (pid:26248) Cleaning job queue...
+07/04/24 01:40:45 (pid:26248) About to rotate ClassAd log E:\condor\spool\job_queue.log
+07/04/24 01:40:45 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:40:45 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:40:45 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:40:45 (pid:26248) Failed to send update to collector localhost.
+07/04/24 01:40:45 (pid:26248) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:40:45 (pid:26248) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:40:45 (pid:26248) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:40:45 (pid:26248) Failed to send update to collector localhost.
+07/04/24 01:40:45 (pid:26248) All shadows are gone, exiting.
+07/04/24 01:40:45 (pid:26248) **** condor_schedd.exe (condor_SCHEDD) pid 26248 EXITING WITH STATUS 0
+07/04/24 01:40:47 (pid:24512) ******************************************************
+07/04/24 01:40:47 (pid:24512) ** condor_schedd.exe (CONDOR_SCHEDD) STARTING UP
+07/04/24 01:40:47 (pid:24512) ** E:\condor\bin\condor_schedd.exe
+07/04/24 01:40:47 (pid:24512) ** SubsystemInfo: name=SCHEDD type=SCHEDD(4) class=DAEMON(1)
+07/04/24 01:40:47 (pid:24512) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+07/04/24 01:40:47 (pid:24512) ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:40:47 (pid:24512) ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:40:47 (pid:24512) ** PID = 24512
+07/04/24 01:40:47 (pid:24512) ** Log last touched 7/4 01:40:45
+07/04/24 01:40:47 (pid:24512) ******************************************************
+07/04/24 01:40:47 (pid:24512) Using config source: E:\condor\condor_config
+07/04/24 01:40:47 (pid:24512) Using local config sources: 
+07/04/24 01:40:47 (pid:24512)    E:\condor\condor_config.local
+07/04/24 01:40:47 (pid:24512) config Macros = 47, Sorted = 47, StringBytes = 1000, TablesBytes = 1740
+07/04/24 01:40:47 (pid:24512) CLASSAD_CACHING is ENABLED
+07/04/24 01:40:47 (pid:24512) Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:40:47 (pid:24512) SharedPortEndpoint: listener already created.
+07/04/24 01:40:47 (pid:24512) DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_24332_f6c8>
+07/04/24 01:40:47 (pid:24512) DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_24332_f6c8>
+07/04/24 01:40:47 (pid:24512) History file rotation is enabled.
+07/04/24 01:40:47 (pid:24512)   Maximum history file size is: 20971520 bytes
+07/04/24 01:40:47 (pid:24512)   Number of rotated history files is: 2
+07/04/24 01:40:47 (pid:24512) config super users : condor,SYSTEM
+07/04/24 01:40:47 (pid:24512) Reloading job factories
+07/04/24 01:40:47 (pid:24512) Loaded 0 job factories, 0 were paused, 0 failed to load
+07/04/24 01:40:47 (pid:24512) TransferQueueManager stats: active up=0/100 down=0/100; waiting up=0 down=0; wait time up=0s down=0s
+07/04/24 01:40:47 (pid:24512) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/04/24 01:40:47 (pid:24512) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/04/24 01:40:48 (pid:24512) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:40:48 (pid:24512) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:40:48 (pid:24512) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:40:48 (pid:24512) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:40:48 (pid:24512) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:41:22 (pid:24512) Got SIGTERM. Performing graceful shutdown.
+07/04/24 01:41:22 (pid:24512) Deleting CronJobMgr
+07/04/24 01:41:22 (pid:24512) Cron: Killing all jobs
+07/04/24 01:41:22 (pid:24512) Cron: Killing all jobs
+07/04/24 01:41:22 (pid:24512) CronJobList: Deleting all jobs
+07/04/24 01:41:22 (pid:24512) Cron: Killing all jobs
+07/04/24 01:41:22 (pid:24512) CronJobList: Deleting all jobs
+07/04/24 01:41:22 (pid:24512) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:22 (pid:24512) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:22 (pid:24512) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:22 (pid:24512) Failed to send update to collector localhost.
+07/04/24 01:41:22 (pid:24512) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:22 (pid:24512) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:22 (pid:24512) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:22 (pid:24512) Failed to send update to collector localhost.
+07/04/24 01:41:22 (pid:24512) All shadows are gone, exiting.
+07/04/24 01:41:22 (pid:24512) **** condor_schedd.exe (condor_SCHEDD) pid 24512 EXITING WITH STATUS 0
+07/04/24 01:41:25 (pid:26932) ******************************************************
+07/04/24 01:41:25 (pid:26932) ** condor_schedd.exe (CONDOR_SCHEDD) STARTING UP
+07/04/24 01:41:25 (pid:26932) ** E:\condor\bin\condor_schedd.exe
+07/04/24 01:41:25 (pid:26932) ** SubsystemInfo: name=SCHEDD type=SCHEDD(4) class=DAEMON(1)
+07/04/24 01:41:25 (pid:26932) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+07/04/24 01:41:25 (pid:26932) ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:41:25 (pid:26932) ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:41:25 (pid:26932) ** PID = 26932
+07/04/24 01:41:25 (pid:26932) ** Log last touched 7/4 01:41:22
+07/04/24 01:41:25 (pid:26932) ******************************************************
+07/04/24 01:41:25 (pid:26932) Using config source: E:\condor\condor_config
+07/04/24 01:41:25 (pid:26932) Using local config sources: 
+07/04/24 01:41:25 (pid:26932)    E:\condor\condor_config.local
+07/04/24 01:41:25 (pid:26932) config Macros = 47, Sorted = 47, StringBytes = 1000, TablesBytes = 1740
+07/04/24 01:41:25 (pid:26932) CLASSAD_CACHING is ENABLED
+07/04/24 01:41:25 (pid:26932) Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:41:25 (pid:26932) SharedPortEndpoint: listener already created.
+07/04/24 01:41:25 (pid:26932) DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_33432_4c8e>
+07/04/24 01:41:25 (pid:26932) DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_33432_4c8e>
+07/04/24 01:41:25 (pid:26932) History file rotation is enabled.
+07/04/24 01:41:25 (pid:26932)   Maximum history file size is: 20971520 bytes
+07/04/24 01:41:25 (pid:26932)   Number of rotated history files is: 2
+07/04/24 01:41:25 (pid:26932) config super users : condor,SYSTEM
+07/04/24 01:41:25 (pid:26932) Reloading job factories
+07/04/24 01:41:25 (pid:26932) Loaded 0 job factories, 0 were paused, 0 failed to load
+07/04/24 01:41:25 (pid:26932) TransferQueueManager stats: active up=0/100 down=0/100; waiting up=0 down=0; wait time up=0s down=0s
+07/04/24 01:41:25 (pid:26932) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/04/24 01:41:25 (pid:26932) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/04/24 01:41:25 (pid:26932) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:41:25 (pid:26932) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:41:25 (pid:26932) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:41:25 (pid:26932) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:41:25 (pid:26932) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:44:17 (pid:26932) Got SIGQUIT.  Performing fast shutdown.
+07/04/24 01:44:17 (pid:26932) Cron: Killing all jobs
+07/04/24 01:44:17 (pid:26932) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:44:17 (pid:26932) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:44:17 (pid:26932) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:44:17 (pid:26932) Failed to send update to collector localhost.
+07/04/24 01:44:17 (pid:26932) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:44:17 (pid:26932) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:44:17 (pid:26932) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:44:17 (pid:26932) Failed to send update to collector localhost.
+07/04/24 01:44:17 (pid:26932) All shadows have been killed, exiting.
+07/04/24 01:44:17 (pid:26932) **** condor_schedd.exe (condor_SCHEDD) pid 26932 EXITING WITH STATUS 0
+07/04/24 01:44:17 (pid:26932) Cron: Killing all jobs
+07/04/24 01:44:17 (pid:26932) CronJobList: Deleting all jobs
+07/04/24 01:44:17 (pid:26932) Cron: Killing all jobs
+07/04/24 01:44:17 (pid:26932) CronJobList: Deleting all jobs
+07/04/24 01:44:39 (pid:23228) ******************************************************
+07/04/24 01:44:39 (pid:23228) ** condor_schedd.exe (CONDOR_SCHEDD) STARTING UP
+07/04/24 01:44:39 (pid:23228) ** E:\condor\bin\condor_schedd.exe
+07/04/24 01:44:39 (pid:23228) ** SubsystemInfo: name=SCHEDD type=SCHEDD(4) class=DAEMON(1)
+07/04/24 01:44:39 (pid:23228) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+07/04/24 01:44:39 (pid:23228) ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:44:39 (pid:23228) ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:44:39 (pid:23228) ** PID = 23228
+07/04/24 01:44:39 (pid:23228) ** Log last touched 7/4 01:44:17
+07/04/24 01:44:39 (pid:23228) ******************************************************
+07/04/24 01:44:39 (pid:23228) Using config source: E:\condor\condor_config
+07/04/24 01:44:39 (pid:23228) Using local config sources: 
+07/04/24 01:44:39 (pid:23228)    E:\condor\condor_config.local
+07/04/24 01:44:39 (pid:23228) config Macros = 47, Sorted = 47, StringBytes = 1000, TablesBytes = 1740
+07/04/24 01:44:39 (pid:23228) CLASSAD_CACHING is ENABLED
+07/04/24 01:44:39 (pid:23228) Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:44:39 (pid:23228) SharedPortEndpoint: listener already created.
+07/04/24 01:44:39 (pid:23228) DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_27264_5d96>
+07/04/24 01:44:39 (pid:23228) DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_27264_5d96>
+07/04/24 01:44:39 (pid:23228) History file rotation is enabled.
+07/04/24 01:44:39 (pid:23228)   Maximum history file size is: 20971520 bytes
+07/04/24 01:44:39 (pid:23228)   Number of rotated history files is: 2
+07/04/24 01:44:39 (pid:23228) config super users : condor,SYSTEM
+07/04/24 01:44:39 (pid:23228) Reloading job factories
+07/04/24 01:44:39 (pid:23228) Loaded 0 job factories, 0 were paused, 0 failed to load
+07/04/24 01:44:39 (pid:23228) TransferQueueManager stats: active up=0/100 down=0/100; waiting up=0 down=0; wait time up=0s down=0s
+07/04/24 01:44:39 (pid:23228) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/04/24 01:44:39 (pid:23228) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/04/24 01:44:40 (pid:23228) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost in non-blocking mode, errno=10054 
+07/04/24 01:44:40 (pid:23228) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:44:40 (pid:23228) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:44:40 (pid:23228) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:44:40 (pid:23228) Failed to start non-blocking update to <127.0.0.1:9618>.
+07/04/24 01:46:08 (pid:23228) Got SIGQUIT.  Performing fast shutdown.
+07/04/24 01:46:08 (pid:23228) Cron: Killing all jobs
+07/04/24 01:46:08 (pid:23228) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:46:08 (pid:23228) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:46:08 (pid:23228) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:46:08 (pid:23228) Failed to send update to collector localhost.
+07/04/24 01:46:08 (pid:23228) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector localhost, errno=10054 
+07/04/24 01:46:08 (pid:23228) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:46:08 (pid:23228) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:46:08 (pid:23228) Failed to send update to collector localhost.
+07/04/24 01:46:08 (pid:23228) All shadows have been killed, exiting.
+07/04/24 01:46:08 (pid:23228) **** condor_schedd.exe (condor_SCHEDD) pid 23228 EXITING WITH STATUS 0
+07/04/24 01:46:08 (pid:23228) Cron: Killing all jobs
+07/04/24 01:46:08 (pid:23228) CronJobList: Deleting all jobs
+07/04/24 01:46:08 (pid:23228) Cron: Killing all jobs
+07/04/24 01:46:08 (pid:23228) CronJobList: Deleting all jobs
+07/04/24 01:46:19 (pid:16376) ******************************************************
+07/04/24 01:46:19 (pid:16376) ** condor_schedd.exe (CONDOR_SCHEDD) STARTING UP
+07/04/24 01:46:19 (pid:16376) ** E:\condor\bin\condor_schedd.exe
+07/04/24 01:46:19 (pid:16376) ** SubsystemInfo: name=SCHEDD type=SCHEDD(4) class=DAEMON(1)
+07/04/24 01:46:19 (pid:16376) ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+07/04/24 01:46:19 (pid:16376) ** $CondorVersion: 23.0.0 2023-09-29 BuildID: 678686 $
+07/04/24 01:46:19 (pid:16376) ** $CondorPlatform: x86_64_Windows10 $
+07/04/24 01:46:19 (pid:16376) ** PID = 16376
+07/04/24 01:46:19 (pid:16376) ** Log last touched 7/4 01:46:08
+07/04/24 01:46:19 (pid:16376) ******************************************************
+07/04/24 01:46:19 (pid:16376) Using config source: E:\condor\condor_config
+07/04/24 01:46:19 (pid:16376) Using local config sources: 
+07/04/24 01:46:19 (pid:16376)    E:\condor\condor_config.local
+07/04/24 01:46:19 (pid:16376) config Macros = 45, Sorted = 45, StringBytes = 958, TablesBytes = 1668
+07/04/24 01:46:19 (pid:16376) CLASSAD_CACHING is ENABLED
+07/04/24 01:46:19 (pid:16376) Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/04/24 01:46:19 (pid:16376) SharedPortEndpoint: listener already created.
+07/04/24 01:46:19 (pid:16376) DaemonCore: command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_28032_389a>
+07/04/24 01:46:19 (pid:16376) DaemonCore: private command socket at <192.168.0.7:9618?addrs=192.168.0.7-9618&alias=LAPTOP-PBUUEJR0&noUDP&sock=schedd_28032_389a>
+07/04/24 01:46:19 (pid:16376) History file rotation is enabled.
+07/04/24 01:46:19 (pid:16376)   Maximum history file size is: 20971520 bytes
+07/04/24 01:46:19 (pid:16376)   Number of rotated history files is: 2
+07/04/24 01:46:19 (pid:16376) config super users : condor,SYSTEM
+07/04/24 01:46:19 (pid:16376) Reloading job factories
+07/04/24 01:46:19 (pid:16376) Loaded 0 job factories, 0 were paused, 0 failed to load
+07/04/24 01:46:19 (pid:16376) TransferQueueManager stats: active up=0/100 down=0/100; waiting up=0 down=0; wait time up=0s down=0s
+07/04/24 01:46:19 (pid:16376) TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/04/24 01:46:19 (pid:16376) TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+07/04/24 01:46:20 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:46:20 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:46:20 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:46:20 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:46:20 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 01:51:19 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:51:19 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:51:19 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:51:19 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:51:19 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 01:56:19 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 01:56:19 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 01:56:19 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 01:56:19 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 01:56:19 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:01:20 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:01:20 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:01:20 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:01:20 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:01:20 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:06:20 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:06:20 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:06:20 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:06:20 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:06:20 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:11:21 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:11:21 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:11:21 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:11:21 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:11:21 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:16:22 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:16:22 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:16:22 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:16:22 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:16:22 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:21:22 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:21:22 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:21:22 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:21:22 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:21:22 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:26:23 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:26:23 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:26:23 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:26:23 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:26:23 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:31:23 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:31:23 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:31:23 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:31:23 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:31:23 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:36:23 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:36:23 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:36:23 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:36:23 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:36:23 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:41:24 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:41:24 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:41:24 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:41:24 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:41:24 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.
+07/04/24 02:46:24 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7 in non-blocking mode, errno=10054 
+07/04/24 02:46:24 (pid:16376) condor_read(): Socket closed abnormally when trying to read 5 bytes from collector 192.168.0.7, errno=10054 
+07/04/24 02:46:24 (pid:16376) SECMAN: Failed to read resume session response classad from server.
+07/04/24 02:46:24 (pid:16376) ERROR: SECMAN:2007:Failed to read resume session response classad from server.
+07/04/24 02:46:24 (pid:16376) Failed to start non-blocking update to <192.168.0.7:9618>.

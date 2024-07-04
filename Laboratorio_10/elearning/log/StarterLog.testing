@@ -1,0 +1,45 @@
+07/03/24 23:23:16 (pid:20312) 'docker info' did not exit successfully (code 1); the first line of output was 'Client:'.
+07/03/24 23:23:16 (pid:20312)   Try adding condor to the docker group in /etc/group
+07/03/24 23:23:17 (pid:20312) my_popen: CreateProcess failed err=193
+07/03/24 23:23:17 (pid:20312) FILETRANSFER: Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/03/24 23:23:17 (pid:20312) my_popen: CreateProcess failed err=193
+07/03/24 23:23:17 (pid:20312) FILETRANSFER: Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring
+07/03/24 23:23:17 (pid:20312) my_popen: CreateProcess failed err=193
+07/03/24 23:23:17 (pid:20312) FILETRANSFER: Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring
+07/03/24 23:23:17 (pid:20312) WARNING: Initializing plugins returned: FILETRANSFER:1:Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/04/24 01:40:48 (pid:28784) 'docker info' did not exit successfully (code 1); the first line of output was 'Client:'.
+07/04/24 01:40:48 (pid:28784)   Try adding condor to the docker group in /etc/group
+07/04/24 01:40:48 (pid:28784) my_popen: CreateProcess failed err=193
+07/04/24 01:40:48 (pid:28784) FILETRANSFER: Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/04/24 01:40:48 (pid:28784) my_popen: CreateProcess failed err=193
+07/04/24 01:40:48 (pid:28784) FILETRANSFER: Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring
+07/04/24 01:40:48 (pid:28784) my_popen: CreateProcess failed err=193
+07/04/24 01:40:48 (pid:28784) FILETRANSFER: Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring
+07/04/24 01:40:48 (pid:28784) WARNING: Initializing plugins returned: FILETRANSFER:1:Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/04/24 01:41:26 (pid:36076) 'docker info' did not exit successfully (code 1); the first line of output was 'Client:'.
+07/04/24 01:41:26 (pid:36076)   Try adding condor to the docker group in /etc/group
+07/04/24 01:41:26 (pid:36076) my_popen: CreateProcess failed err=193
+07/04/24 01:41:26 (pid:36076) FILETRANSFER: Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/04/24 01:41:26 (pid:36076) my_popen: CreateProcess failed err=193
+07/04/24 01:41:26 (pid:36076) FILETRANSFER: Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring
+07/04/24 01:41:26 (pid:36076) my_popen: CreateProcess failed err=193
+07/04/24 01:41:26 (pid:36076) FILETRANSFER: Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring
+07/04/24 01:41:26 (pid:36076) WARNING: Initializing plugins returned: FILETRANSFER:1:Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/04/24 01:44:41 (pid:32140) 'docker info' did not exit successfully (code 1); the first line of output was 'Client:'.
+07/04/24 01:44:41 (pid:32140)   Try adding condor to the docker group in /etc/group
+07/04/24 01:44:41 (pid:32140) my_popen: CreateProcess failed err=193
+07/04/24 01:44:41 (pid:32140) FILETRANSFER: Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/04/24 01:44:41 (pid:32140) my_popen: CreateProcess failed err=193
+07/04/24 01:44:41 (pid:32140) FILETRANSFER: Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring
+07/04/24 01:44:41 (pid:32140) my_popen: CreateProcess failed err=193
+07/04/24 01:44:41 (pid:32140) FILETRANSFER: Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring
+07/04/24 01:44:41 (pid:32140) WARNING: Initializing plugins returned: FILETRANSFER:1:Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/04/24 01:46:20 (pid:28780) 'docker info' did not exit successfully (code 1); the first line of output was 'Client:'.
+07/04/24 01:46:20 (pid:28780)   Try adding condor to the docker group in /etc/group
+07/04/24 01:46:20 (pid:28780) my_popen: CreateProcess failed err=193
+07/04/24 01:46:20 (pid:28780) FILETRANSFER: Failed to execute E:\condor\bin\box_plugin.py, ignoring
+07/04/24 01:46:20 (pid:28780) my_popen: CreateProcess failed err=193
+07/04/24 01:46:20 (pid:28780) FILETRANSFER: Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring
+07/04/24 01:46:20 (pid:28780) my_popen: CreateProcess failed err=193
+07/04/24 01:46:20 (pid:28780) FILETRANSFER: Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring
+07/04/24 01:46:20 (pid:28780) WARNING: Initializing plugins returned: FILETRANSFER:1:Failed to execute E:\condor\bin/onedrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin/gdrive_plugin.py, ignoring|FILETRANSFER:1:Failed to execute E:\condor\bin\box_plugin.py, ignoring
